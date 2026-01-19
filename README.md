@@ -44,10 +44,6 @@ Before you begin, make sure you have:
 - Your Kratos kit with all components
 - A compatible original Xbox
 - Basic tools for opening your Xbox
-- A WiFi network available for setup
+- Optional WiFi network available
 
 Start with the [Hardware Installation](hardware-installation.md) guide to begin your installation.
-
----
-
-*For more information about Kratos, visit [Darkone Customs](https://www.darkonecustoms.com/store/p/kratos)*
