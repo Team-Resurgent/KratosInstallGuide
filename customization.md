@@ -114,9 +114,9 @@ Configure WiFi and network settings:
 
 - **Password** - Your WiFi network password (max 63 characters). The security key required to connect to your WiFi network.
 
-- **Hostname** - Network hostname for your Kratos device (max 63 characters). This is the name your Kratos will use on your local network. Other devices can use this name to find your Kratos instead of using the IP address. For example, if set to "kratos-xbox", you might access it at `http://kratos-xbox` instead of `http://192.168.1.100`.
+- **Hostname** - Network hostname for your Kratos device (max 63 characters). This is the name your Kratos will use on your local network. Other devices can use this name to find your Kratos instead of using the IP address. For example, if set to "kratos-xbox", you might access it at `http://kratos-xbox.local` instead of `http://192.168.1.100`.
 
-- **Alexa Name** - Name used for Alexa integration (max 63 characters). This is the name you'll use when giving voice commands to Alexa to control your Kratos. For example, "Alexa, turn on [Alexa Name]".
+- **Alexa Name** - Name used for Alexa integration (max 63 characters). This is the name you'll use when giving voice commands to Alexa to control your Kratos. For example, "Alexa, turn on [Xbox Original]".
 
 ## Loading and Saving Configuration
 
@@ -171,8 +171,6 @@ Navigate to **Credits & About** from the main menu.
 
 - **Start Simple** - Begin with basic colors and gradually add effects. It's easier to understand how each setting works when you change one thing at a time.
 
-- **Use the Load Button** - Always load current config before making changes to see existing settings. This helps you understand what's currently configured and avoid losing your work.
-
 - **Experiment with Easing** - Different easing functions create unique animation feels:
   - Use **Sine Ease In Out** for smooth, natural movements
   - Use **Elastic** or **Bounce** for playful, energetic effects
@@ -192,9 +190,8 @@ Navigate to **Credits & About** from the main menu.
 ## Troubleshooting
 
 - **Settings Not Saving** - Ensure you're connected to the same WiFi network as your Kratos
-- **Colors Not Updating** - Try reloading the configuration page and loading current settings
 - **Effects Not Visible** - Check that LED counts are set correctly for your hardware
-- **WiFi Changes** - After changing WiFi settings, you may need to reconnect to the new network
+- **WiFi Changes** - After changing WiFi settings, you may need to reconnect to the location
 
 ---
 
