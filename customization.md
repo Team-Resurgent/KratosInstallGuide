@@ -114,9 +114,9 @@ Configure WiFi and network settings:
 
 - **Password** - Your WiFi network password (max 63 characters). The security key required to connect to your WiFi network.
 
-- **Hostname** - Network hostname for your Kratos device (max 63 characters). This is the name your Kratos will use on your local network. Other devices can use this name to find your Kratos instead of using the IP address. For example, if set to "kratos-xbox", you might access it at `http://kratos-xbox` instead of `http://192.168.1.100`.
+- **Hostname** - Network hostname for your Kratos device (max 63 characters). This is the name your Kratos will use on your local network. Other devices can use this name to find your Kratos instead of using the IP address. For example, if set to "kratos-xbox", you might access it at `http://kratos-xbox.local` instead of `http://192.168.1.100`.
 
-- **Alexa Name** - Name used for Alexa integration (max 63 characters). This is the name you'll use when giving voice commands to Alexa to control your Kratos. For example, "Alexa, turn on [Alexa Name]".
+- **Alexa Name** - Name used for Alexa integration (max 63 characters). This is the name you'll use when giving voice commands to Alexa to control your Kratos. For example, "Alexa, turn on [Xbox Original]".
 
 ## Loading and Saving Configuration
 
