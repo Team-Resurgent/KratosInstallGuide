@@ -8,43 +8,39 @@ Kratos supports two methods for WiFi configuration:
 - **Normal WiFi Setup** - Connect using your network SSID and password
 - **WPS (Wi-Fi Protected Setup)** - Quick connection using the WPS button on your router
 
-Both methods can be configured through the Xbox interface or via the web interface after initial setup.
+Both methods can be configured through PrometheOS's interface.
 
-## Setup Methods
+## Setup Method
 
-### Method 1: Normal WiFi Setup (SSID & Password)
+### Step 1: Navigate to System
 
-This is the standard method for connecting to a WiFi network.
+Select System from PrometheOS home page.
 
-#### Step 1: Access Kratos WiFi Settings in PrometheOS
-
-[![Step 1: Access Kratos WiFi Settings in PrometheOS](images/wifisetup/setp1.png)](images/wifisetup/setp1.png)
-
-**Description:** Navigate to the Kratos settings menu in PrometheOS. From the main PrometheOS menu, select Kratos configuration options and choose "WiFi Setup" or "Network Configuration" to begin the WiFi setup process.
+[![Step 1](images/wifisetup/setp1.png)](images/wifisetup/setp1.png)
 
 ---
 
-#### Step 2: Scan and Select WiFi Network
+### Step 2: Navigate to Settings
 
-[![Step 2: Scan and Select WiFi Network](images/wifisetup/step2.png)](images/wifisetup/step2.png)
+Select Setttings from System page.
 
-**Description:** Kratos will automatically scan for available WiFi networks. A list of detected networks (SSIDs) will be displayed. Use the controller to navigate and select your WiFi network from the list. Networks are typically sorted by signal strength.
-
----
-
-#### Step 3: Enter WiFi Password
-
-[![Step 3: Enter WiFi Password](images/wifisetup/step3.png)](images/wifisetup/step3.png)
-
-**Description:** After selecting your network, you'll be prompted to enter the WiFi password. Use the on-screen keyboard to type your network password. Pay attention to case sensitivity and special characters. Press the confirm/enter button when finished.
+[![Step 2](images/wifisetup/step2.png)](images/wifisetup/step2.png)
 
 ---
 
-#### Step 4: WiFi Connection Success
+### Step 3: Navigate to Kratos Editor
 
-[![Step 4: WiFi Connection Success](images/wifisetup/step4.png)](images/wifisetup/step4.png)
+Select Kratos Editor from Settings page.
 
-**Description:** Once successfully connected, PrometheOS will display a confirmation screen showing your connected network name (SSID) and the assigned IP address. Note down the IP address as you'll need it to access the Kratos web interface. Your Kratos is now connected and ready to use.
+[![Step 3](images/wifisetup/step3.png)](images/wifisetup/step3.png)
+
+---
+
+### Step 4: Navigate to WIFI Details
+
+Select WIFI Details from Kratos Editor page.
+
+[![Step 4](images/wifisetup/step4.png)](images/wifisetup/step4.png)
 
 ---
 
