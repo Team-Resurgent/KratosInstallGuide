@@ -10,117 +10,125 @@ Kratos supports two methods for WiFi configuration:
 
 Both methods can be configured through PrometheOS's interface.
 
-## Setup Method
+## Navigation to WiFi Configuration
+
+Follow these steps to access the WiFi configuration menu in PrometheOS:
 
 ### Step 1: Navigate to System
 
-Select System from PrometheOS home page.
+From the PrometheOS home page, select **System** to access system configuration options.
 
-[![Step 1](images/wifisetup/setp1.png)](images/wifisetup/setp1.png)
+[![Step 1: Navigate to System](images/wifisetup/setp1.png)](images/wifisetup/setp1.png)
 
 ---
 
 ### Step 2: Navigate to Settings
 
-Select Setttings from System page.
+From the System page, select **Settings** to access device settings.
 
-[![Step 2](images/wifisetup/step2.png)](images/wifisetup/step2.png)
+[![Step 2: Navigate to Settings](images/wifisetup/step2.png)](images/wifisetup/step2.png)
 
 ---
 
 ### Step 3: Navigate to Kratos Editor
 
-Select Kratos Editor from Settings page.
+From the Settings page, select **Kratos Editor** to access Kratos-specific configuration options.
 
-[![Step 3](images/wifisetup/step3.png)](images/wifisetup/step3.png)
-
----
-
-### Step 4: Navigate to WIFI Details
-
-Select WIFI Details from Kratos Editor page.
-
-[![Step 4](images/wifisetup/step4.png)](images/wifisetup/step4.png)
+[![Step 3: Navigate to Kratos Editor](images/wifisetup/step3.png)](images/wifisetup/step3.png)
 
 ---
 
-## Method 1: Standard WIFI Configuration
+### Step 4: Navigate to WiFi Details
 
-From here you can enter SSID / Password then click X to Apply.
+From the Kratos Editor page, select **WiFi Details** to access WiFi configuration options.
 
-[![Step 5](images/wifisetup/step5.png)](images/wifisetup/step5.png)
+[![Step 4: Navigate to WiFi Details](images/wifisetup/step4.png)](images/wifisetup/step4.png)
+
+---
+
+## Method 1: Standard WiFi Configuration
+
+Once you've reached the WiFi Details page, you can configure your WiFi connection using your network credentials:
+
+1. Enter your **SSID** (WiFi network name) in the SSID field
+2. Enter your **Password** (WiFi network password) in the Password field
+3. Press **X** to apply the settings and connect
+
+Kratos will attempt to connect to the specified network. You'll see connection status information displayed on the screen.
+
+[![Method 1: Standard WiFi Configuration](images/wifisetup/step5.png)](images/wifisetup/step5.png)
 
 ---
 
 ## Method 2: WPS (Wi-Fi Protected Setup) Configuration
 
-WPS provides a quick and easy way to connect without entering a password.
+WPS provides a quick and easy way to connect without entering a password. This method is ideal if your router supports WPS and you want to avoid typing the password.
+
+### Prerequisites
+
+Before using WPS, ensure:
+- Your router supports WPS (Wi-Fi Protected Setup)
+- WPS is enabled on your router (check your router's admin settings if needed)
 
 ### Step 1: Navigate to WPS
 
-Select WPS from Kratos Editor page.
+From the Kratos Editor page, select **WPS** to access the WPS connection option.
 
-[![Step 1](images/wifisetup/step6.png)](images/wifisetup/step6.png)
+[![Step 1: Navigate to WPS](images/wifisetup/step6.png)](images/wifisetup/step6.png)
 
 ---
 
 ### Step 2: Connect using WPS
 
-Go to your router and press its WPS button, then press A to get Kratos to connect
+To complete the WPS connection:
 
-[![Step 2](images/wifisetup/step7.png)](images/wifisetup/step7.png)
+1. **Press the WPS button on your router** - This is usually a physical button on your router (may be labeled "WPS" or have a WPS icon)
+2. **Press A on your Xbox controller** - This initiates the WPS connection process on Kratos
 
-#### Prerequisites
+Kratos will automatically connect to your network. The connection typically completes within 2 minutes. You'll see connection status information on the screen.
 
-- Your router must support WPS
-- WPS must be enabled on your router (check router settings if needed)
+[![Step 2: Connect using WPS](images/wifisetup/step7.png)](images/wifisetup/step7.png)
 
-#### WPS Setup Steps
-
-1. **Access WiFi Configuration** - Navigate to the Kratos WiFi setup menu from your Xbox dashboard
-2. **Select WPS Option** - Choose the WPS connection method from the WiFi setup menu
-3. **Activate WPS on Router** - Press the WPS button on your router (usually a physical button on the router)
-4. **Wait for Connection** - The Kratos will automatically connect to your network within the WPS time window (typically 2 minutes)
-5. **Confirmation** - You'll see a confirmation screen once the connection is established
-
-**Note:** WPS connection must be completed within the router's WPS window (usually 2 minutes after pressing the WPS button).
+**Important:** The WPS connection must be completed within your router's WPS window (typically 2 minutes). Make sure to press the router's WPS button and then immediately press A on your controller.
 
 ---
 
 ## Web Interface Access
 
-After successful WiFi setup, you can access the Kratos web interface by:
+After successful WiFi setup, you can access the Kratos web interface from any device on your network:
 
-1. Finding the IP address assigned to your Kratos (displayed in the Kratos Editor at top)
-2. Opening a web browser on any device connected to the same network
-3. Navigating to the Kratos IP address or hostname.local e.g. http://kratos-xbox.local
+1. **Find the IP address** - The IP address assigned to your Kratos is displayed at the top of the Kratos Editor page
+2. **Open a web browser** - On any device connected to the same WiFi network (computer, phone, tablet, etc.)
+3. **Navigate to Kratos** - Enter the IP address in your browser's address bar, or use the hostname with `.local` (e.g., `http://kratos-xbox.local`)
+
+The Kratos web interface provides advanced configuration options and additional features not available through PrometheOS.
 
 ## Changing WiFi Settings via Web Interface
 
-You can also change WiFi settings after initial setup through the web interface:
+You can also change WiFi settings after initial setup through the web interface, which provides a more convenient way to update network credentials:
 
-1. Access the Kratos web interface using the IP address
-2. Navigate to **System Configuration**
+1. Access the Kratos web interface using the IP address or hostname
+2. Navigate to **System Configuration** from the main menu
 3. Scroll to the **WiFi Configuration** section
-4. Update your SSID, password, hostname, or Alexa name
-5. Click **Save Configuration** to apply changes
+4. Update your SSID, password, hostname, or Alexa name as needed
+5. Click **Save Configuration** to apply the changes
 
-**Note:** After changing WiFi settings, you may need to reconnect to the new network if the SSID or password changed.
+**Note:** After changing WiFi settings (especially SSID or password), you may need to reconnect your device to the new network to continue accessing the web interface.
 
 ## Troubleshooting
 
-### Normal WiFi Setup Issues
+### Standard WiFi Setup Issues
 
-- **Can't find network:** Ensure your router is broadcasting the SSID and is within range
-- **Connection fails:** Double-check your password and ensure your network is 2.4GHz compatible (if applicable)
-- **Wrong password:** Verify the password is correct and check for case sensitivity
+- **Can't find network:** Ensure your router is broadcasting the SSID and that your Xbox is within WiFi range. Try moving closer to the router if possible.
+- **Connection fails:** Double-check your password for accuracy and ensure your network is 2.4GHz compatible (Kratos may not support 5GHz-only networks)
+- **Wrong password:** Verify the password is correct, paying attention to case sensitivity and special characters. Some passwords are case-sensitive.
 
 ### WPS Setup Issues
 
-- **WPS not working:** Some routers require WPS to be enabled in router settings first
-- **Connection timeout:** Make sure you press the router's WPS button within the setup window
-- **WPS not available:** If your router doesn't support WPS, use the normal WiFi setup method instead
-- **Router WPS disabled:** Check your router's admin panel to ensure WPS is enabled
+- **WPS not working:** Some routers require WPS to be explicitly enabled in the router's admin settings. Check your router's configuration page.
+- **Connection timeout:** Make sure you press the router's WPS button and then immediately press A on your controller within the 2-minute WPS window
+- **WPS not available:** If your router doesn't support WPS, use Method 1 (Standard WiFi Configuration) instead
+- **Router WPS disabled:** Access your router's admin panel and ensure WPS is enabled in the wireless settings
 
 ## Next Steps
 
