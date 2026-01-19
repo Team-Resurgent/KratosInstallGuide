@@ -171,8 +171,6 @@ Navigate to **Credits & About** from the main menu.
 
 - **Start Simple** - Begin with basic colors and gradually add effects. It's easier to understand how each setting works when you change one thing at a time.
 
-- **Use the Load Button** - Always load current config before making changes to see existing settings. This helps you understand what's currently configured and avoid losing your work.
-
 - **Experiment with Easing** - Different easing functions create unique animation feels:
   - Use **Sine Ease In Out** for smooth, natural movements
   - Use **Elastic** or **Bounce** for playful, energetic effects
@@ -192,9 +190,8 @@ Navigate to **Credits & About** from the main menu.
 ## Troubleshooting
 
 - **Settings Not Saving** - Ensure you're connected to the same WiFi network as your Kratos
-- **Colors Not Updating** - Try reloading the configuration page and loading current settings
 - **Effects Not Visible** - Check that LED counts are set correctly for your hardware
-- **WiFi Changes** - After changing WiFi settings, you may need to reconnect to the new network
+- **WiFi Changes** - After changing WiFi settings, you may need to reconnect to the location
 
 ---
 
