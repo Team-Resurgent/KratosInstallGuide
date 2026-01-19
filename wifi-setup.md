@@ -44,9 +44,31 @@ Select WIFI Details from Kratos Editor page.
 
 ---
 
-### Method 2: WPS (Wi-Fi Protected Setup)
+## Method 1: Standard WIFI Configuration
+
+From here you can enter SSID / Password then click X to Apply.
+
+[![Step 5](images/wifisetup/step5.png)](images/wifisetup/step5.png)
+
+---
+
+## Method 2: WPS (Wi-Fi Protected Setup) Configuration
 
 WPS provides a quick and easy way to connect without entering a password.
+
+### Step 1: Navigate to WPS
+
+Select WPS from Kratos Editor page.
+
+[![Step 1](images/wifisetup/step6.png)](images/wifisetup/step6.png)
+
+---
+
+### Step 2: Connect using WPS
+
+Go to your router and press its WPS button, then press A to get Kratos to connect
+
+[![Step 2](images/wifisetup/step7.png)](images/wifisetup/step7.png)
 
 #### Prerequisites
 
@@ -69,9 +91,9 @@ WPS provides a quick and easy way to connect without entering a password.
 
 After successful WiFi setup, you can access the Kratos web interface by:
 
-1. Finding the IP address assigned to your Kratos (displayed on the confirmation screen or in the Xbox settings)
+1. Finding the IP address assigned to your Kratos (displayed in the Kratos Editor at top)
 2. Opening a web browser on any device connected to the same network
-3. Navigating to the Kratos IP address
+3. Navigating to the Kratos IP address or hostname.local e.g. http://kratos-xbox.local
 
 ## Changing WiFi Settings via Web Interface
 
