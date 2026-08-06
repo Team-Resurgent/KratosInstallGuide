@@ -9,7 +9,7 @@ Before the Kratos boards can be installed, the Xbox needs to be opened up and th
 3. Place the console on a flat, stable surface
 4. Organize your Kratos components and tools
 
-Don't be tempted to make do with a flathead screwdriver or Allen key in place of proper Torx drivers - you'll only frustrate yourself and chew up the screws. Alongside the required T20 and T10, a hobby knife and some wax paper are handy for dealing with the stickers and feet, and an insulated screw grabber makes retrieving screws easier.
+Don't be tempted to make do with a flathead screwdriver or Allen key in place of proper Torx drivers - you'll only frustrate yourself and chew up the screws. Alongside the required T20 and T10, a hobby knife and some wax paper are handy for dealing with the labels and feet, and an insulated screw grabber makes retrieving screws easier.
 
 [![Helpful tools: screw grabber, hobby knife, wax paper and Torx drivers](images/opening/step1.png)](images/opening/step1.png)
 
@@ -21,17 +21,20 @@ Peel back just the outer edge of each foot, leaving the rest of the adhesive stu
 
 [![Peeling back the edge of a rubber foot to reach the screw](images/opening/step2.png)](images/opening/step2.png)
 
-## Step 3: Peel Back the Stickers
+## Step 3: Peel Back the Labels
 
-The remaining two case screws are hidden under the stickers. If you want to keep the stickers intact, carefully peel them back with a hobby knife and lay them on wax paper to preserve them. If you're not worried about looks, the T20 driver punches straight through them.
+- There are 2 more screws hidden under the two labels on the bottom of the case
+- You can either remove the labels or simply feel for the screw holes through the labels and then cut or punch a hole through them
 
-**Note:** Disturbing these stickers may void any remaining warranty.
+**Note:** Disturbing these labels may void any remaining warranty.
 
-[![Sticker peeled back to reveal the hidden case screw](images/opening/step3.png)](images/opening/step3.png)
+[![Peeling back a label to reveal the hidden case screw](images/opening/step3a.jpg)](images/opening/step3a.jpg)
+
+[![Label peeled back to reveal the hidden case screw](images/opening/step3b.png)](images/opening/step3b.png)
 
 ## Step 4: Remove the Case Screws and Lift Off the Top Shell
 
-Using the T20 Torx driver, remove all six case screws - four under the feet and two under the stickers.
+Using the T20 Torx driver, remove all six case screws - four under the feet and two under the labels.
 
 [![The six case screw locations on the underside of the console](images/opening/step4.png)](images/opening/step4.png)
 
@@ -47,20 +50,25 @@ Three T10 screws hold both drives in place: one for the hard drive, tucked under
 
 1. Unplug the IDE cable from the hard drive
 2. Free the power cord from the track it sits in on the drive tray - the drive won't come out if you miss this. The cord itself can stay plugged into the hard drive; it's long enough to set the drive aside
+
+[![Freeing the hard drive power cable](images/opening/step6.jpg)](images/opening/step6.jpg)
+
 3. Lift the hard drive carrier straight up and out. There's no easy way to grab it - a finger in the hole at the front right of the carrier and your other hand grasping the rear works well
+
+[![Lifting the hard drive carrier out of the console](images/opening/step7.jpg)](images/opening/step7.jpg)
 
 ## Step 7: Remove the DVD Drive
 
 1. Disconnect the IDE cable and the yellow cable from the motherboard
 2. With the hard drive out of the way, remove the two screws at the front of the DVD drive if you haven't already
 
-[![With the hard drive removed, the DVD drive mounting screws are accessible](images/opening/step6.png)](images/opening/step6.png)
+[![With the hard drive removed, the DVD drive mounting screws are accessible](images/opening/step8.png)](images/opening/step8.png)
 
 3. Lift the drive straight up and out. It doesn't slip out easily, but with the two front screws and both rear cables removed it will come free
 
 With both drives out, your Xbox is now open with the front panel accessible, ready for the next stage.
 
-[![The console with both drives removed](images/opening/step7.png)](images/opening/step7.png)
+[![The console with both drives removed](images/opening/step9.png)](images/opening/step9.png)
 
 ---
 
