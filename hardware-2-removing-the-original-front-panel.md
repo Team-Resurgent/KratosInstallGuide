@@ -50,8 +50,4 @@ With the bezel off, the original front button panel board is accessible - discon
 
 ---
 
-*Removal method and photos from [Dempsey_86's tutorial on Xbox-Scene](https://www.xbox-scene.info/tutorials/article/29-removing-the-xbox-front-panel-aka-bezelface-plate/) (photos originally by Llamma.com).*
-
----
-
 [← Previous: Part 1 - Opening Your Xbox](hardware-1-opening-your-xbox.md) | [Next: Part 3 - Installing the Kratos Main Board →](hardware-3-installing-the-kratos-main-board.md)
