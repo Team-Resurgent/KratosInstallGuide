@@ -12,7 +12,7 @@ Disconnect the yellow cable coming from the front panel. While you're there, tak
 
 ## Step 2: Choose a Prying Tool
 
-Use something wide and flat to pry with. A narrow tool like a screwdriver will gouge the plastic, and a metal ruler is usually too thin. A piece of aluminium bar stock (around 38mm wide and 3mm thick) works well.
+Use something wide and flat to pry with. A narrow tool like a screwdriver will gouge the plastic, and a metal ruler is usually too thin. A piece of aluminium bar stock (around 1½" / 38mm wide and ⅛" / 3mm thick) works well.
 
 [![A wide, flat prying tool made from aluminium bar stock](images/frontpanel/step1.png)](images/frontpanel/step1.png)
 
