@@ -46,8 +46,8 @@ The front panel is now free of the console.
 
 [![Console front with the panel removed](images/frontpanel/step7.png)](images/frontpanel/step7.png)
 
-With the bezel off, the original front button panel board is accessible - disconnect any remaining connections and remove the board, ready for the Kratos Main Board.
+With the bezel off, the original front button panel board is accessible - disconnect any remaining connections and remove the board.
 
 ---
 
-[← Previous: Part 1 - Opening Your Xbox](hardware-1-opening-your-xbox.md) | [Next: Part 3 - Installing the Kratos Main Board →](hardware-3-installing-the-kratos-main-board.md)
+[← Previous: Part 1 - Opening Your Xbox](hardware-1-opening-your-xbox.md) | [Next: Part 3 - Preparing the Controller Ports →](hardware-3-preparing-the-controller-ports.md)
