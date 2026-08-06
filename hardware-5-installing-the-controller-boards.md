@@ -1,4 +1,4 @@
-# Part 4: Installing the Controller Boards
+# Part 5: Installing the Controller Boards
 
 The two Kratos Controller Boards fit in the controller port locations at the front of the console.
 
@@ -8,4 +8,4 @@ The two Kratos Controller Boards fit in the controller port locations at the fro
 
 ---
 
-[← Previous: Part 3 - Installing the Kratos Main Board](hardware-3-installing-the-kratos-main-board.md) | [Next: Part 5 - Connecting the Modxo Harness →](hardware-5-connecting-the-modxo-harness.md)
+[← Previous: Part 4 - Installing the Kratos Main Board](hardware-4-installing-the-kratos-main-board.md) | [Next: Part 6 - Connecting the Modxo Harness →](hardware-6-connecting-the-modxo-harness.md)

@@ -1,4 +1,4 @@
-# Part 3: Installing the Kratos Main Board
+# Part 4: Installing the Kratos Main Board
 
 The Kratos Main Board fits in place of the original front panel board you just removed.
 
@@ -8,4 +8,4 @@ The Kratos Main Board fits in place of the original front panel board you just r
 
 ---
 
-[← Previous: Part 2 - Removing the Original Front Panel](hardware-2-removing-the-original-front-panel.md) | [Next: Part 4 - Installing the Controller Boards →](hardware-4-installing-the-controller-boards.md)
+[← Previous: Part 3 - Preparing the Controller Ports](hardware-3-preparing-the-controller-ports.md) | [Next: Part 5 - Installing the Controller Boards →](hardware-5-installing-the-controller-boards.md)

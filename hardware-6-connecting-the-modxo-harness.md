@@ -1,4 +1,4 @@
-# Part 5: Connecting the Modxo Harness
+# Part 6: Connecting the Modxo Harness
 
 The Modxo Harness links the Kratos Main Board to your Modxo board for ultimate mod control.
 
@@ -8,4 +8,4 @@ The Modxo Harness links the Kratos Main Board to your Modxo board for ultimate m
 
 ---
 
-[← Previous: Part 4 - Installing the Controller Boards](hardware-4-installing-the-controller-boards.md) | [Next: Part 6 - Reassembly →](hardware-6-reassembly.md)
+[← Previous: Part 5 - Installing the Controller Boards](hardware-5-installing-the-controller-boards.md) | [Next: Part 7 - Reassembly →](hardware-7-reassembly.md)

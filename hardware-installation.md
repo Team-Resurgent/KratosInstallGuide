@@ -20,10 +20,11 @@ The hardware installation is split into the following parts. Work through them i
 
 1. **[Part 1: Opening Your Xbox](hardware-1-opening-your-xbox.md)** - Open the console and remove the drives to access the front panel
 2. **[Part 2: Removing the Original Front Panel](hardware-2-removing-the-original-front-panel.md)** - Remove the stock front button panel board
-3. **[Part 3: Installing the Kratos Main Board](hardware-3-installing-the-kratos-main-board.md)** - Fit the Kratos Main Board in place of the original panel
-4. **[Part 4: Installing the Controller Boards](hardware-4-installing-the-controller-boards.md)** - Fit the Kratos Controller Boards in the controller port locations
-5. **[Part 5: Connecting the Modxo Harness](hardware-5-connecting-the-modxo-harness.md)** - Connect Kratos to your Modxo board
-6. **[Part 6: Reassembly](hardware-6-reassembly.md)** - Put the console back together
+3. **[Part 3: Preparing the Controller Ports](hardware-3-preparing-the-controller-ports.md)** - Remove the original controller ports and their shielding
+4. **[Part 4: Installing the Kratos Main Board](hardware-4-installing-the-kratos-main-board.md)** - Fit the Kratos Main Board in place of the original panel
+5. **[Part 5: Installing the Controller Boards](hardware-5-installing-the-controller-boards.md)** - Fit the Kratos Controller Boards in the controller port locations
+6. **[Part 6: Connecting the Modxo Harness](hardware-6-connecting-the-modxo-harness.md)** - Connect Kratos to your Modxo board
+7. **[Part 7: Reassembly](hardware-7-reassembly.md)** - Put the console back together
 
 Start with [Part 1: Opening Your Xbox](hardware-1-opening-your-xbox.md).
 
