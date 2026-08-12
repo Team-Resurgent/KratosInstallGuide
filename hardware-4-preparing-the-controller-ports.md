@@ -1,4 +1,4 @@
-# Part 3: Preparing the Controller Ports
+# Part 4: Preparing the Controller Ports
 
 With the front panel off, the original controller ports need to be removed and stripped of their shielding. The Kratos Controller Boards then slide in behind the ports before everything is screwed back down.
 
@@ -60,4 +60,4 @@ The right-hand board needs a 5V feed wired in before it goes in place.
 
 ---
 
-[← Previous: Part 2 - Removing the Original Front Panel](hardware-2-removing-the-original-front-panel.md) | [Next: Part 4 - Preparing the Kratos Main Board →](hardware-4-installing-the-kratos-main-board.md)
+[← Previous: Part 3 - Removing the Original Front Panel](hardware-3-removing-the-original-front-panel.md) | [Next: Part 5 - Preparing the Kratos Main Board →](hardware-5-preparing-the-kratos-main-board.md)

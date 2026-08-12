@@ -1,4 +1,4 @@
-# Part 2: Removing the Original Front Panel
+# Part 3: Removing the Original Front Panel
 
 With the console open and the drives removed, the front panel (bezel/face plate) can now be removed.
 
@@ -50,4 +50,4 @@ With the bezel off, the original front button panel board is accessible - discon
 
 ---
 
-[← Previous: Part 1 - Opening Your Xbox](hardware-1-opening-your-xbox.md) | [Next: Part 3 - Preparing the Controller Ports →](hardware-3-preparing-the-controller-ports.md)
+[← Previous: Part 2 - Opening Your Xbox](hardware-2-opening-your-xbox.md) | [Next: Part 4 - Preparing the Controller Ports →](hardware-4-preparing-the-controller-ports.md)

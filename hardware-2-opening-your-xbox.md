@@ -1,4 +1,4 @@
-# Part 1: Opening Your Xbox
+# Part 2: Opening Your Xbox
 
 Before the Kratos boards can be installed, the Xbox needs to be opened up and the drives removed so the front panel is accessible.
 
@@ -74,4 +74,4 @@ With both drives out, your Xbox is now open with the front panel accessible, rea
 
 ---
 
-[← Hardware Installation](hardware-installation.md) | [Next: Part 2 - Removing the Original Front Panel →](hardware-2-removing-the-original-front-panel.md)
+[← Previous: Part 1 - Before You Start](hardware-1-before-you-start.md) | [Next: Part 3 - Removing the Original Front Panel →](hardware-3-removing-the-original-front-panel.md)

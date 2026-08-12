@@ -1,4 +1,4 @@
-# Part 4: Preparing the Kratos Main Board
+# Part 5: Preparing the Kratos Main Board
 
 The Kratos Main Board uses the same 9-pin connector as the original front panel board, so the connector has to be transferred across before the board can go in. It is soldered in place and its wires sit in slot contacts, so this step needs patience rather than force.
 
@@ -8,7 +8,7 @@ The Kratos Main Board uses the same 9-pin connector as the original front panel 
 
 ## Step 1: Unclip the Original Board from the Front Panel
 
-The original front button panel board clips into the back of the front panel you removed in Part 2. Release the clips and lift the board away - it should come out without any force.
+The original front button panel board clips into the back of the front panel you removed in Part 3. Release the clips and lift the board away - it should come out without any force.
 
 ## Step 2: Desolder the 9-Pin Connector
 
@@ -56,4 +56,4 @@ With the cables on, clip the Kratos Main Board into the front panel using the sa
 
 ---
 
-[← Previous: Part 3 - Preparing the Controller Ports](hardware-3-preparing-the-controller-ports.md) | [Next: Part 5 - Refitting the Front Panel →](hardware-5-installing-the-controller-boards.md)
+[← Previous: Part 4 - Preparing the Controller Ports](hardware-4-preparing-the-controller-ports.md) | [Next: Part 6 - Refitting the Front Panel →](hardware-6-refitting-the-front-panel.md)

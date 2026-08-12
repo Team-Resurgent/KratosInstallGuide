@@ -1,4 +1,4 @@
-# Part 5: Refitting the Front Panel
+# Part 6: Refitting the Front Panel
 
 With the Kratos Main Board clipped into the front panel, the panel can go back on the console. The cables need routing through the chassis first, otherwise they will be trapped or pinched when the panel clips home.
 
@@ -39,4 +39,4 @@ With the panel in place, the standby wire can be run to the motherboard and cut 
 
 ---
 
-[← Previous: Part 4 - Preparing the Kratos Main Board](hardware-4-installing-the-kratos-main-board.md) | [Next: Part 6 - Connecting the Modxo Harness →](hardware-6-connecting-the-modxo-harness.md)
+[← Previous: Part 5 - Preparing the Kratos Main Board](hardware-5-preparing-the-kratos-main-board.md) | [Next: Part 7 - Connecting the Modxo Harness →](hardware-7-connecting-the-modxo-harness.md)

@@ -1,4 +1,4 @@
-# Part 7: Reassembly
+# Part 8: Reassembly
 
 With all the Kratos components installed and connected, the console can now be put back together.
 
@@ -14,4 +14,4 @@ Hardware installation is now complete! Proceed to [WiFi Setup](wifi-setup.md) to
 
 ---
 
-[← Previous: Part 6 - Connecting the Modxo Harness](hardware-6-connecting-the-modxo-harness.md) | [Next: WiFi Setup →](wifi-setup.md)
+[← Previous: Part 7 - Connecting the Modxo Harness](hardware-7-connecting-the-modxo-harness.md) | [Next: WiFi Setup →](wifi-setup.md)
