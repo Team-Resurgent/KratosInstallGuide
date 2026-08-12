@@ -46,7 +46,7 @@ The front panel is now free of the console.
 
 [![Console front with the panel removed](images/frontpanel/step7.png)](images/frontpanel/step7.png)
 
-With the bezel off, the original front button panel board is accessible - disconnect any remaining connections and remove the board.
+With the bezel off, the original front button panel board is accessible - disconnect any remaining connections. The board itself comes off the panel in Part 4.
 
 ---
 

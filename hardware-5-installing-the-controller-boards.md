@@ -8,4 +8,4 @@ The two Kratos Controller Boards fit in the controller port locations at the fro
 
 ---
 
-[← Previous: Part 4 - Installing the Kratos Main Board](hardware-4-installing-the-kratos-main-board.md) | [Next: Part 6 - Connecting the Modxo Harness →](hardware-6-connecting-the-modxo-harness.md)
+[← Previous: Part 4 - Preparing the Kratos Main Board](hardware-4-installing-the-kratos-main-board.md) | [Next: Part 6 - Connecting the Modxo Harness →](hardware-6-connecting-the-modxo-harness.md)

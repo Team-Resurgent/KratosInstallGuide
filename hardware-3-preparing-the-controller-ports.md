@@ -36,4 +36,4 @@ With the shielding removed, the controller ports should look like this:
 
 ---
 
-[← Previous: Part 2 - Removing the Original Front Panel](hardware-2-removing-the-original-front-panel.md) | [Next: Part 4 - Installing the Kratos Main Board →](hardware-4-installing-the-kratos-main-board.md)
+[← Previous: Part 2 - Removing the Original Front Panel](hardware-2-removing-the-original-front-panel.md) | [Next: Part 4 - Preparing the Kratos Main Board →](hardware-4-installing-the-kratos-main-board.md)

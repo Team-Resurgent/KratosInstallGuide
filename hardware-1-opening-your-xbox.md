@@ -9,6 +9,8 @@ Before the Kratos boards can be installed, the Xbox needs to be opened up and th
 3. Place the console on a flat, stable surface
 4. Organize your Kratos components and tools
 
+**Tip:** With everything unplugged, press the power button on the console a few times. The power supply holds a charge in its capacitors after the mains lead comes out, and this helps drain it, reducing the risk of a shock while you are working inside.
+
 Don't be tempted to make do with a flathead screwdriver or Allen key in place of proper Torx drivers - you'll only frustrate yourself and chew up the screws. Alongside the required T20 and T10, a hobby knife and some wax paper are handy for dealing with the labels and feet, and an insulated screw grabber makes retrieving screws easier.
 
 [![Helpful tools: screw grabber, hobby knife, wax paper and Torx drivers](images/opening/step1.png)](images/opening/step1.png)
