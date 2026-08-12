@@ -1,6 +1,6 @@
 # Part 1: Before You Start
 
-This part is optional, but worth doing. Kratos runs happily from USB-C power on its own, so you can get it onto your WiFi and confirm it is working before the console is ever opened up. If you would rather leave it, WiFi can also be set up from the Xbox afterwards - see [WiFi Setup](wifi-setup.md).
+This part is optional, but worth doing. Kratos runs happily from USB-C power on its own, so you can get it onto your WiFi and confirm it is working before the console is ever opened up. If you would rather leave it, WiFi can also be set up from the Xbox afterwards - see [WiFi Setup](software-wifi-setup.md).
 
 Connect a USB-C cable to the Kratos Main Board to power it up. From there, there are two ways to get it onto your network.
 

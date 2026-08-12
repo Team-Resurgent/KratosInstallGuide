@@ -132,9 +132,9 @@ You can also change WiFi settings after initial setup through the web interface,
 
 ## Next Steps
 
-Now that WiFi is configured, you can proceed to [Customization](customization.md) to personalize your Kratos RGB LEDs and settings.
+Now that WiFi is configured, you can personalize your Kratos RGB LEDs and settings from the web interface.
 
 ---
 
-[← Back to Main Guide](README.md) | [← Hardware Installation](hardware-installation.md) | [Next: Customization →](customization.md)
+[← Back to Main Guide](README.md) | [← Hardware Installation](hardware-installation.md)
 

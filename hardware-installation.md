@@ -35,7 +35,7 @@ Start with [Part 1: Before You Start](hardware-1-before-you-start.md).
 
 ## Next Steps
 
-Once hardware installation is complete, proceed to [WiFi Setup](wifi-setup.md) to configure your Kratos connection.
+Once hardware installation is complete, proceed to [WiFi Setup](software-wifi-setup.md) to configure your Kratos connection.
 
 ---
 

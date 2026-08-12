@@ -35,8 +35,7 @@ Each Kratos kit includes:
 This guide is organized into the following sections:
 
 1. **[Hardware Installation](hardware-installation.md)** - Step-by-step guide for physically installing the Kratos board and components
-2. **[WiFi Setup](wifi-setup.md)** - Configure your Kratos WiFi connection
-3. **[Customization](customization.md)** - Customize RGB LEDs, effects, and other settings
+2. **[WiFi Setup](software-wifi-setup.md)** - Configure your Kratos WiFi connection
 
 ## Getting Started
 
