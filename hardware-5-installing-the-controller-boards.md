@@ -24,6 +24,19 @@ Feed the left controller port cable through the rectangular hole in the shieldin
 
 With everything routed and nothing trapped, line the front panel up with the console and clip it back into place - the three tabs along the bottom locate first, then the panel presses home.
 
+## Step 5: Connect the 5V Standby Wire
+
+With the panel in place, the standby wire can be run to the motherboard and cut to fit.
+
+1. Route the wire around the controller port as shown below
+
+[![The 5V standby wire routed around the controller port](images/refit/step5a.jpg)](images/refit/step5a.jpg)
+
+2. Cut it to length once you are happy with the route, leaving a little slack rather than pulling it tight
+3. Strip the end and solder it to the 5V standby point on the motherboard
+
+[![The 5V standby wire soldered to the motherboard](images/refit/step5b.jpg)](images/refit/step5b.jpg)
+
 ---
 
 [← Previous: Part 4 - Preparing the Kratos Main Board](hardware-4-installing-the-kratos-main-board.md) | [Next: Part 6 - Connecting the Modxo Harness →](hardware-6-connecting-the-modxo-harness.md)
