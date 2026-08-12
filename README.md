@@ -14,7 +14,6 @@ KRATOS is the ultimate OGX front button panel replacement, crafted in collaborat
 - Dynamic RGB effects to match your mood or setup
 - Personalized front panel LED colors
 - Modxo integration for ultimate mod control
-- PrometheOS compatible
 - Over-the-air updates for hassle-free upgrades
 - Configurable over a web interface or on the xbox
 - WPS enabled
