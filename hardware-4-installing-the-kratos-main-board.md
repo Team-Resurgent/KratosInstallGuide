@@ -46,6 +46,16 @@ With the connector fitted and cleaned up, the Kratos Main Board should look like
 
 [![Another view of the assembled Kratos Main Board](images/mainboard/step4b.jpg)](images/mainboard/step4b.jpg)
 
+## Step 5: Connect the Controller Cables and Clip the Board In
+
+The two Controller Board Connection Cables are the 3-wire JST leads. Plug one into the header marked **RGB1** and the other into **RGB2** - the connectors are keyed, so they only go in one way. Route each cable towards the controller port it will feed.
+
+With the cables on, clip the Kratos Main Board into the front panel using the same clips that held the original board.
+
+[![The Kratos Main Board clipped into the front panel with the RGB cables connected](images/mainboard/step5.jpg)](images/mainboard/step5.jpg)
+
+The 9-pin cable plugs into the header marked **INPUT**, and the connector at the top right marked **MODXO** is for the Modxo Harness in Part 6.
+
 ---
 
 [← Previous: Part 3 - Preparing the Controller Ports](hardware-3-preparing-the-controller-ports.md) | [Next: Part 5 - Installing the Controller Boards →](hardware-5-installing-the-controller-boards.md)
