@@ -14,4 +14,4 @@ Hardware installation is now complete! Proceed to [WiFi Setup](wifi-setup.md) to
 
 ---
 
-[← Previous: Part 7 - Connecting the Modxo Harness](hardware-7-connecting-the-modxo-harness.md) | [Next: WiFi Setup →](wifi-setup.md)
+[← Previous: Part 7 - Connecting Kratos to the SMBus](hardware-7-connecting-kratos-to-the-smbus.md) | [Next: WiFi Setup →](wifi-setup.md)

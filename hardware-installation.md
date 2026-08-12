@@ -22,15 +22,16 @@ This guide will walk you through the physical installation of your Kratos front 
 
 The hardware installation is split into the following parts. Work through them in order:
 
-1. **[Part 1: Opening Your Xbox](hardware-1-opening-your-xbox.md)** - Open the console and remove the drives to access the front panel
-2. **[Part 2: Removing the Original Front Panel](hardware-2-removing-the-original-front-panel.md)** - Remove the front bezel to reach the stock front button panel board
-3. **[Part 3: Preparing the Controller Ports](hardware-3-preparing-the-controller-ports.md)** - Remove the original controller ports and their shielding, then fit the Kratos Controller Boards
-4. **[Part 4: Preparing the Kratos Main Board](hardware-4-installing-the-kratos-main-board.md)** - Transfer the 9-pin connector from the original board to the Kratos Main Board
-5. **[Part 5: Refitting the Front Panel](hardware-5-installing-the-controller-boards.md)** - Route the cables and clip the front panel back onto the console
-6. **[Part 6: Connecting the Modxo Harness](hardware-6-connecting-the-modxo-harness.md)** - Connect Kratos to your Modxo board
-7. **[Part 7: Reassembly](hardware-7-reassembly.md)** - Put the console back together
+1. **[Part 1: Before You Start](hardware-1-before-you-start.md)** - Optional: get Kratos onto your WiFi over USB-C before you install it
+2. **[Part 2: Opening Your Xbox](hardware-2-opening-your-xbox.md)** - Open the console and remove the drives to access the front panel
+3. **[Part 3: Removing the Original Front Panel](hardware-3-removing-the-original-front-panel.md)** - Remove the front bezel to reach the stock front button panel board
+4. **[Part 4: Preparing the Controller Ports](hardware-4-preparing-the-controller-ports.md)** - Remove the original controller ports and their shielding, then fit the Kratos Controller Boards
+5. **[Part 5: Preparing the Kratos Main Board](hardware-5-preparing-the-kratos-main-board.md)** - Transfer the 9-pin connector from the original board to the Kratos Main Board
+6. **[Part 6: Refitting the Front Panel](hardware-6-refitting-the-front-panel.md)** - Route the cables and clip the front panel back onto the console
+7. **[Part 7: Connecting Kratos to the SMBus](hardware-7-connecting-kratos-to-the-smbus.md)** - Wire the SDA and SCL lines to the console's SMBus
+8. **[Part 8: Reassembly](hardware-8-reassembly.md)** - Put the console back together
 
-Start with [Part 1: Opening Your Xbox](hardware-1-opening-your-xbox.md).
+Start with [Part 1: Before You Start](hardware-1-before-you-start.md).
 
 ## Next Steps
 
@@ -38,4 +39,4 @@ Once hardware installation is complete, proceed to [WiFi Setup](wifi-setup.md) t
 
 ---
 
-[← Back to Main Guide](README.md) | [Next: Part 1 - Opening Your Xbox →](hardware-1-opening-your-xbox.md)
+[← Back to Main Guide](README.md) | [Next: Part 1 - Before You Start →](hardware-1-before-you-start.md)

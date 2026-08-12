@@ -39,4 +39,4 @@ With the panel in place, the standby wire can be run to the motherboard and cut 
 
 ---
 
-[← Previous: Part 5 - Preparing the Kratos Main Board](hardware-5-preparing-the-kratos-main-board.md) | [Next: Part 7 - Connecting the Modxo Harness →](hardware-7-connecting-the-modxo-harness.md)
+[← Previous: Part 5 - Preparing the Kratos Main Board](hardware-5-preparing-the-kratos-main-board.md) | [Next: Part 7 - Connecting Kratos to the SMBus →](hardware-7-connecting-kratos-to-the-smbus.md)
