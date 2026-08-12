@@ -56,4 +56,4 @@ With the cables on, clip the Kratos Main Board into the front panel using the sa
 
 ---
 
-[← Previous: Part 3 - Preparing the Controller Ports](hardware-3-preparing-the-controller-ports.md) | [Next: Part 5 - Installing the Controller Boards →](hardware-5-installing-the-controller-boards.md)
+[← Previous: Part 3 - Preparing the Controller Ports](hardware-3-preparing-the-controller-ports.md) | [Next: Part 5 - Refitting the Front Panel →](hardware-5-installing-the-controller-boards.md)

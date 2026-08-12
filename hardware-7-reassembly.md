@@ -2,7 +2,7 @@
 
 With all the Kratos components installed and connected, the console can now be put back together.
 
-1. Refit the front panel to the console and reconnect the front panel cable to the motherboard
+1. Reconnect the front panel cable to the motherboard
 2. Double-check all connections
 3. Refit the hard drive and DVD drive
 4. Replace the Xbox top case and secure with screws

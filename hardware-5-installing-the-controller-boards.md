@@ -1,10 +1,28 @@
-# Part 5: Installing the Controller Boards
+# Part 5: Refitting the Front Panel
 
-The two Kratos Controller Boards fit in the controller port locations at the front of the console.
+With the Kratos Main Board clipped into the front panel, the panel can go back on the console. The cables need routing through the chassis first, otherwise they will be trapped or pinched when the panel clips home.
 
-1. Install the 2x Kratos Controller Boards in the controller port locations
-2. Connect the Controller Board Connection Cables to each board
-3. Ensure all connections are secure
+## Step 1: Route the Right-Hand Cables
+
+Feed the right-hand RGB cable and the 9-pin cable that plugs into the Kratos **INPUT** header through the oblong hole in the chassis.
+
+[![The right-hand RGB and 9-pin cables routed through the oblong hole](images/refit/step1.jpg)](images/refit/step1.jpg)
+
+## Step 2: Solder the 5V Standby Wire
+
+Solder a 30cm length of wire to the **5V STDBY** pad on the back of the Kratos Main Board, arrowed below. The generous length leaves enough slack to reach its connection point later.
+
+[![The 5V STDBY pad on the back of the Kratos Main Board](images/refit/step2.jpg)](images/refit/step2.jpg)
+
+## Step 3: Route the Left Controller Port Cable and 5V Standby Wire
+
+Feed the left controller port cable through the rectangular hole in the shielding at the front left, and the 5V standby wire through the square hole.
+
+[![The left controller port cable routed through the rectangular shielding hole](images/refit/step3.jpg)](images/refit/step3.jpg)
+
+## Step 4: Clip the Front Panel Back On
+
+With everything routed and nothing trapped, line the front panel up with the console and clip it back into place - the three tabs along the bottom locate first, then the panel presses home.
 
 ---
 
