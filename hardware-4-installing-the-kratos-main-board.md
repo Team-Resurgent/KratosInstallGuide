@@ -12,7 +12,9 @@ The original front button panel board clips into the back of the front panel you
 
 ## Step 2: Desolder the 9-Pin Connector
 
-The connector needs to come off the original board intact so it can be reused on the Kratos Main Board.
+The connector needs to come off the original board intact so it can be reused on the Kratos Main Board. It is the white 9-pin header marked JP1, at the end the yellow cable comes out of.
+
+[![The original front panel board with the 9-pin connector and yellow cable](images/mainboard/step2.png)](images/mainboard/step2.png)
 
 **Do not try to free it by pulling on the cable.** The wires are held in slot contacts, so pulling will drag the wires out of the connector housing instead of lifting the connector off the board.
 
