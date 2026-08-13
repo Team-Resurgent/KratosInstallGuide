@@ -8,35 +8,13 @@ Feed the right-hand RGB cable and the 9-pin cable that plugs into the Kratos **I
 
 [![The right-hand RGB and 9-pin cables routed through the oblong hole](images/refit/step1.jpg)](images/refit/step1.jpg)
 
-## Step 2: Solder the 5V Standby Wire
+## Now Pick Your Console Revision
 
-Solder a 30cm length of wire to the **5V STDBY** pad on the back of the Kratos Main Board, arrowed below. The generous length leaves enough slack to reach its connection point later.
+The 5V standby wiring differs between console revisions, so the rest of this part splits in two. Follow the one that matches your console, then carry on to Part 7.
 
-[![The 5V STDBY pad on the back of the Kratos Main Board](images/refit/step2.jpg)](images/refit/step2.jpg)
-
-## Step 3: Route the Left Controller Port Cable and 5V Standby Wire
-
-Feed the left controller port cable through the rectangular hole in the shielding at the front left, and the 5V standby wire through the square hole.
-
-[![The left controller port cable routed through the rectangular shielding hole](images/refit/step3.jpg)](images/refit/step3.jpg)
-
-## Step 4: Clip the Front Panel Back On
-
-With everything routed and nothing trapped, line the front panel up with the console and clip it back into place - the three tabs along the bottom locate first, then the panel presses home.
-
-## Step 5: Connect the 5V Standby Wire
-
-With the panel in place, the standby wire can be run to the motherboard and cut to fit.
-
-1. Route the wire around the controller port as shown below
-
-[![The 5V standby wire routed around the controller port](images/refit/step5a.jpg)](images/refit/step5a.jpg)
-
-2. Cut it to length once you are happy with the route, leaving a little slack rather than pulling it tight
-3. Strip the end and solder it to the 5V standby point on the motherboard
-
-[![The 5V standby wire soldered to the motherboard](images/refit/step5b.jpg)](images/refit/step5b.jpg)
+- **[Part 6a: Xbox 1.0 to 1.5](hardware-6a-refitting-the-front-panel-1-0-1-5.md)**
+- **[Part 6b: Xbox 1.6](hardware-6b-refitting-the-front-panel-1-6.md)**
 
 ---
 
-[← Previous: Part 5 - Preparing the Kratos Main Board](hardware-5-preparing-the-kratos-main-board.md) | [Next: Part 7 - Connecting Kratos to the SMBus →](hardware-7-connecting-kratos-to-the-smbus.md)
+[← Previous: Part 5 - Preparing the Kratos Main Board](hardware-5-preparing-the-kratos-main-board.md)
