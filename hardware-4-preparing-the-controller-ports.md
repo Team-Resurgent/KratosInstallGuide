@@ -38,7 +38,7 @@ With the shielding removed, the controller ports should look like this:
 
 **Note:** Left and right are as you face the front of the console. Working from behind, as you will be here, the right-hand board is the one on your left.
 
-1. Bridge the solder link beside **RGB1** on the board, leaving the link beside **OUT** alone - see the [Pinout Reference](reference-pinout.md) if you are unsure which is which
+1. Bridge the solder link beside **RGB1** on the board, leaving the link beside **OUT** alone - this is what taking 5V in at the controller ports calls for, and the [Pinout Reference](reference-pinout.md) shows which link is which
 2. Slide the Kratos left Controller Board into place behind the controller ports
 3. Refit the controller port assemblies and secure them with the four screws removed in Step 1
 4. Reconnect the controller port wire harnesses
@@ -48,10 +48,10 @@ With the shielding removed, the controller ports should look like this:
 
 ## Step 5: Fit the Right Controller Board
 
-The right-hand board needs a 5V feed wired in before it goes in place.
+In this install the right-hand board is the one that brings 5V in, so it gets a feed wired to it before it goes in place. As covered in [Part 1](hardware-1-before-you-start.md), the 5V is taken from the controller ports because that supply is fused on the Xbox.
 
 1. Solder a wire from the red 5V pad on the port 4 controller port board to the pad marked **5V ALT** on the Kratos right Controller Board
-2. Bridge the solder link beside **RGB2** on the same board, leaving the link beside **OUT** alone - see the [Pinout Reference](reference-pinout.md) if you are unsure which is which
+2. Bridge the solder link beside **RGB2** on the same board, leaving the link beside **OUT** alone - the same pairing as the left board, and the [Pinout Reference](reference-pinout.md) shows which link is which
 3. Slide the board into place behind the controller ports
 4. Refit the controller port assemblies and secure them with their screws
 5. Reconnect the controller port wire harnesses

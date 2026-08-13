@@ -50,9 +50,9 @@ With the connector fitted and cleaned up, the Kratos Main Board should look like
 
 The SMBus harness is the single-ended 3-wire JST lead - a connector on one end, bare wires on the other. It plugs into the header marked **INPUT**, and its two SMBus wires are soldered to the console's SMBus later in [Part 7](hardware-7-connecting-kratos-to-the-smbus.md).
 
-**Remove the 5V wire from the harness before you plug it in.** In this install Kratos is powered from the controller ports, wired up in [Part 4](hardware-4-preparing-the-controller-ports.md), so nothing should be connected to the 5V pin on **INPUT**. Leaving the wire on the harness leaves a bare end loose inside the console next to the SMBus joints, which is not worth the risk.
+Kratos is powered from the controller ports in this install, wired up in [Part 4](hardware-4-preparing-the-controller-ports.md), so the harness only needs its two SMBus wires. That leaves the third one, on the 5V pin, with nothing to do, and it is worth taking off rather than leaving a bare end loose inside the console.
 
-The **INPUT** header is SCL, SDA, then 5V, so the 5V wire is the one on the end - check it against the [Pinout Reference](reference-pinout.md) before you touch anything. To take it out, lift the small retention tab inside the connector housing with a fine pick and slide the contact out. If you would rather not disturb the housing, cut the wire off flush at the connector and insulate the stub instead.
+The **INPUT** header is SCL, SDA, then 5V, so the 5V wire is the one on the end - check it against the [Pinout Reference](reference-pinout.md) first. To take it out, lift the small retention tab inside the connector housing with a fine pick and slide the contact out. If you would rather not disturb the housing, cut the wire off flush at the connector and insulate the stub instead.
 
 ## Step 6: Connect the Cables and Clip the Board In
 

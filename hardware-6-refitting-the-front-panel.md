@@ -10,7 +10,7 @@ Feed three cables through the oblong hole in the chassis: the right-hand RGB cab
 
 ## Now Pick Your Console Revision
 
-The remaining steps differ depending on your console revision - 1.6 consoles need a 5V standby wire, earlier ones do not. Follow the one that matches your console, then carry on to Part 7.
+The remaining steps differ depending on your console revision. Both cover the same optional job - giving Kratos a 5V standby feed so it stays awake with the Xbox off and can power the console on wirelessly - but where that 5V comes from is not the same. A 1.6 has an always-on supply on the motherboard, earlier consoles have none. Follow the one that matches your console, then carry on to Part 7.
 
 - **[Part 6a: Xbox 1.0 to 1.5](hardware-6a-refitting-the-front-panel-1-0-1-5.md)**
 - **[Part 6b: Xbox 1.6](hardware-6b-refitting-the-front-panel-1-6.md)**

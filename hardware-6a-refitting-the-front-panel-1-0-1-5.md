@@ -1,6 +1,6 @@
 # Part 6a: Refitting the Front Panel - Xbox 1.0 to 1.5
 
-Continuing from Step 1 in [Part 6](hardware-6-refitting-the-front-panel.md), these are the remaining steps for consoles from revision 1.0 to 1.5. Unlike a 1.6, these consoles do not need a 5V standby wire for Kratos to work, though Step 2 covers an optional feed worth fitting.
+Continuing from Step 1 in [Part 6](hardware-6-refitting-the-front-panel.md), these are the remaining steps for consoles from revision 1.0 to 1.5. Step 2 covers the standby feed, which is what you want if Kratos is to power the Xbox on wirelessly. Unlike a 1.6, these consoles have no always-on 5V supply to take it from, so it has to come from elsewhere.
 
 ## Step 2 (Optional): Keep Kratos Powered While the Xbox Is Off
 

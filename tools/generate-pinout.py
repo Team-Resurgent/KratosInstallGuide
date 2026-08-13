@@ -17,7 +17,6 @@ from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parent.parent
 IMAGES = ROOT / "images" / "pinout"
-HELPER = IMAGES / "helper.png"
 
 FONT_PATH = "C:/Windows/Fonts/bahnschrift.ttf"
 FALLBACK_REGULAR = "C:/Windows/Fonts/arial.ttf"
@@ -48,7 +47,6 @@ NOTE_PAD = 20
 NOTE_LINE_H = 40
 CANVAS_BOTTOM_MARGIN = 54
 
-HELPER_H = 480
 HELPER_MARGIN = 50
 
 MAIN_BOARD = {
@@ -59,7 +57,7 @@ MAIN_BOARD = {
     "title_at": (1383, 108),
     "canvas": (2820, 1730),
     "origin": (120, 340),
-    "mascot": True,
+    "mascot": (IMAGES / "helper.png", 480),
     "connectors": {
         "ADDON2": (513, 54, 593, 174),
         "ADDON1": (513, 187, 593, 307),
@@ -73,7 +71,7 @@ MAIN_BOARD = {
         "ADDON1": ("TOP TO BOTTOM", ["IR / SDA", "BUZZER / SCL", "GND", "5V"]),
         "RGB1": ("LEFT TO RIGHT", ["5V", "RGB LEFT", "GND"]),
         "RGB2": ("LEFT TO RIGHT", ["5V", "RGB RIGHT", "GND"]),
-        "INPUT": ("TOP TO BOTTOM", ["SCL", "SDA", "5V (NOT USED)"]),
+        "INPUT": ("TOP TO BOTTOM", ["SCL", "SDA", "5V (SEE NOTE)"]),
         "FRONT PANEL": (
             "TOP TO BOTTOM",
             [
@@ -106,8 +104,8 @@ MAIN_BOARD = {
             [
                 "THE ESP32-S3 RUNS FROM A COMBINATION OF 5V, 5V STDBY AND USB-C.",
                 "THE 5V PIN ON ADDON1 IS A COMBINATION OF 5V AND 5V STDBY.",
-                "5V STDBY IS THE PAD ON THE BACK OF THE BOARD, USED TO KEEP KRATOS POWERED WITH THE CONSOLE OFF.",
-                "THE 5V PIN ON INPUT IS LEFT UNCONNECTED IN THIS INSTALL. THE CONTROLLER PORTS SUPPLY THE 5V.",
+                "5V STDBY IS THE PAD ON THE BACK OF THE BOARD. FEEDING IT KEEPS KRATOS POWERED WITH THE CONSOLE OFF, SO IT CAN POWER THE XBOX ON WIRELESSLY.",
+                "IN THIS EXAMPLE INSTALL THE 5V PIN ON INPUT IS NOT CONNECTED. IT IS THERE FOR FEEDING 5V STRAIGHT INTO THE MAIN BOARD FROM AN ALWAYS-ON SOURCE.",
             ],
             (1180, 1260),
         )
@@ -122,7 +120,7 @@ CONTROLLER_CONNECTORS = {
     "left_header": (223, 82, 305, 187),
     "right_header": (1746, 82, 1827, 184),
 }
-CONTROLLER_CANVAS = (2820, 1520)
+CONTROLLER_CANVAS = (2820, 1600)
 CONTROLLER_ORIGIN = (380, 340)
 # Two notes side by side, centred as a pair under the board.
 CONTROLLER_NOTE_LEFT_AT = (780, 1180)
@@ -135,8 +133,11 @@ RIGHT_CORNER_BOX = ("bottom_left", 1906, 324)
 CORNER_PINS_LEFT = ("TOP TO BOTTOM", ["GND", "RGB", "5V"])
 CORNER_PINS_RIGHT = ("TOP TO BOTTOM", ["5V", "RGB", "GND"])
 
+LEFT_MASCOT = (IMAGES / "helper-toilet.png", 440)
+RIGHT_MASCOT = (IMAGES / "helper-book.png", 520)
 
-def controller_board(side, input_header, supply_note, link_note):
+
+def controller_board(side, input_header, mascot, supply_note, link_note):
     """Build a controller board spec. `input_header` is RGB1 or RGB2."""
     input_on_left = side == "RIGHT"
     return {
@@ -148,6 +149,7 @@ def controller_board(side, input_header, supply_note, link_note):
         "title_at": (1410, 108),
         "canvas": CONTROLLER_CANVAS,
         "origin": CONTROLLER_ORIGIN,
+        "mascot": mascot,
         "connectors": {
             input_header: CONTROLLER_CONNECTORS[
                 "left_header" if input_on_left else "right_header"
@@ -180,20 +182,26 @@ def controller_board(side, input_header, supply_note, link_note):
 LEFT_BOARD = controller_board(
     "LEFT",
     "RGB1",
-    ["THE LEFT BOARD HAS NO 5V SOURCE OF ITS OWN. IT RUNS ON THE 5V ARRIVING FROM THE RIGHT BOARD."],
+    LEFT_MASCOT,
+    [
+        "IN THIS EXAMPLE THE LEFT BOARD IS NOT FED AT 5V ALT. IT RUNS ON THE 5V ARRIVING FROM THE RIGHT BOARD."
+    ],
     [
         "THERE IS ONE BESIDE EACH HEADER.",
-        "BRIDGE THE LINK BESIDE RGB1 AND LEAVE THE ONE BESIDE OUT ALONE.",
+        "IN THIS EXAMPLE THE LINK BESIDE RGB1 IS BRIDGED AND THE ONE BESIDE OUT IS LEFT ALONE.",
     ],
 )
 
 RIGHT_BOARD = controller_board(
     "RIGHT",
     "RGB2",
-    ["SOLDER THE 5V FEED FROM THE PORT 4 CONTROLLER PORT BOARD TO THE 5V ALT PAD."],
+    RIGHT_MASCOT,
+    [
+        "IN THIS EXAMPLE THE 5V FEED FROM THE PORT 4 CONTROLLER PORT BOARD IS SOLDERED TO THE 5V ALT PAD."
+    ],
     [
         "THERE IS ONE BESIDE EACH HEADER.",
-        "BRIDGE THE LINK BESIDE RGB2 AND LEAVE THE ONE BESIDE OUT ALONE.",
+        "IN THIS EXAMPLE THE LINK BESIDE RGB2 IS BRIDGED AND THE ONE BESIDE OUT IS LEFT ALONE.",
     ],
 )
 
@@ -247,9 +255,9 @@ def draw_text_centred(draw, centre, text, font, fill):
     )
 
 
-def is_unused(pin):
-    """Pins with nothing on them are greyed so the live ones stand out."""
-    return pin == "NOT CONNECTED" or pin.endswith("(NOT USED)")
+def is_muted(pin):
+    """Pins carrying nothing in this install are greyed so the live ones stand out."""
+    return pin == "NOT CONNECTED" or pin.endswith("(SEE NOTE)")
 
 
 def box_height(pin_count):
@@ -352,7 +360,7 @@ def draw_callout(draw, board, name, fonts):
             (divider_x + 22, y + ROW_H // 2),
             pin,
             font=fonts["pin"],
-            fill=GREY if is_unused(pin) else BLACK,
+            fill=GREY if is_muted(pin) else BLACK,
             anchor="lm",
         )
 
@@ -403,17 +411,25 @@ def draw_note(draw, note, fonts):
     draw.rectangle((left, top, right, bottom), outline=BLACK, width=BORDER)
 
 
-def paste_helper(canvas):
+def paste_helper(canvas, mascot):
     """Drop the manual's mascot into the empty bottom-right corner."""
-    art = Image.open(HELPER).convert("L")
-    width = round(art.width * HELPER_H / art.height)
-    art = art.resize((width, HELPER_H), Image.LANCZOS)
-    # The source art is small, so scaling up softens its outlines. Pulling the
-    # midtones apart again restores a crisp edge without going fully jagged.
-    art = art.point([0 if v < 100 else 255 if v > 180 else round((v - 100) * 255 / 80) for v in range(256)])
+    source, height = mascot
+    art = Image.open(source).convert("L")
+    # Trim the white margin so mascots drawn on different canvases still come
+    # out the same size on the sheet.
+    art = art.crop(art.point(lambda v: 255 if v < 250 else 0).getbbox())
+    width = round(art.width * height / art.height)
+    scale = height / art.height
+    art = art.resize((width, height), Image.LANCZOS)
+    if scale > 1:
+        # Enlarging softens the outlines. Pulling the midtones apart again
+        # restores a crisp edge without going fully jagged.
+        art = art.point(
+            [0 if v < 100 else 255 if v > 180 else round((v - 100) * 255 / 80) for v in range(256)]
+        )
     canvas.paste(
         art.convert("RGB"),
-        (canvas.width - HELPER_MARGIN - width, canvas.height - HELPER_MARGIN - HELPER_H),
+        (canvas.width - HELPER_MARGIN - width, canvas.height - HELPER_MARGIN - height),
     )
 
 
@@ -460,7 +476,7 @@ def render(board, fonts):
     for note in board.get("notes", ()):
         draw_note(draw, note, fonts)
     if board.get("mascot"):
-        paste_helper(canvas)
+        paste_helper(canvas, board["mascot"])
 
     # Line art with antialiasing needs only a handful of greys, so a palette
     # image keeps the file small without any visible loss.

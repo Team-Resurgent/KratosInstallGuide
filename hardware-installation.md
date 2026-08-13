@@ -29,7 +29,7 @@ The hardware installation is split into the following parts. Work through them i
 5. **[Part 5: Preparing the Kratos Main Board](hardware-5-preparing-the-kratos-main-board.md)** - Transfer the 9-pin connector from the original board to the Kratos Main Board, then fit the cables
 6. **[Part 6: Refitting the Front Panel](hardware-6-refitting-the-front-panel.md)** - Route the cables and clip the front panel back onto the console
    - **[Part 6a: Xbox 1.0 to 1.5](hardware-6a-refitting-the-front-panel-1-0-1-5.md)** - Route the cable and clip the panel on, plus optional standby power for wireless power-on
-   - **[Part 6b: Xbox 1.6](hardware-6b-refitting-the-front-panel-1-6.md)** - 5V standby wiring for 1.6 consoles
+   - **[Part 6b: Xbox 1.6](hardware-6b-refitting-the-front-panel-1-6.md)** - Optional 5V standby wiring for wireless power-on, from the console's own always-on supply
 7. **[Part 7: Connecting Kratos to the SMBus](hardware-7-connecting-kratos-to-the-smbus.md)** - Wire the SDA and SCL lines to the console's SMBus
 8. **[Part 8: Reassembly](hardware-8-reassembly.md)** - Put the console back together
 

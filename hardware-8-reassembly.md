@@ -8,7 +8,7 @@ Work around everything you have connected and make sure none of it is loose or t
 
 - The 9-pin front panel cable into the motherboard header
 - The RGB cables between the Kratos Main Board and each Controller Board
-- The 5V standby wire
+- The 5V standby wire, if you fitted one
 - The SMBus SDA and SCL wires
 
 ## Step 2: Power Up and Check the Front Panel
