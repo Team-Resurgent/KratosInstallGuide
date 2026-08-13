@@ -134,7 +134,7 @@ CORNER_PINS_LEFT = ("TOP TO BOTTOM", ["GND", "RGB", "5V"])
 CORNER_PINS_RIGHT = ("TOP TO BOTTOM", ["5V", "RGB", "GND"])
 
 LEFT_MASCOT = (IMAGES / "helper-toilet.png", 440)
-RIGHT_MASCOT = (IMAGES / "helper-book.png", 520)
+RIGHT_MASCOT = (IMAGES / "helper-book.png", 780)
 
 
 def controller_board(side, input_header, mascot, supply_note, link_note):
