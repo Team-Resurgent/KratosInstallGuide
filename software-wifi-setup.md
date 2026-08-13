@@ -18,7 +18,7 @@ Follow these steps to access the WiFi configuration menu in PrometheOS:
 
 From the PrometheOS home page, select **System** to access system configuration options.
 
-[![Step 1: Navigate to System](images/wifisetup/setp1.png)](images/wifisetup/setp1.png)
+[![Step 1: Navigate to System](images/wifisetup/step1.png)](images/wifisetup/step1.png)
 
 ---
 
