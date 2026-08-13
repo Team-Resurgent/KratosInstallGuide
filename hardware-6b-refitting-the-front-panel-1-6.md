@@ -6,13 +6,13 @@ Continuing from Step 1 in [Part 6](hardware-6-refitting-the-front-panel.md), thi
 
 Solder a 30cm length of wire to the **5V STDBY** pad on the back of the Kratos Main Board, arrowed below. The generous length leaves enough slack to reach its connection point later.
 
-[![The 5V STDBY pad on the back of the Kratos Main Board](images/refit/step2.jpg)](images/refit/step2.jpg)
+[![The 5V STDBY pad on the back of the Kratos Main Board](images/refit6b/step2.jpg)](images/refit6b/step2.jpg)
 
 ## Step 3: Route the Left Controller Port Cable and 5V Standby Wire
 
 Feed the left controller port cable through the rectangular hole in the shielding at the front left, and the 5V standby wire through the square hole.
 
-[![The left controller port cable routed through the rectangular shielding hole](images/refit/step3.jpg)](images/refit/step3.jpg)
+[![The left controller port cable routed through the rectangular shielding hole](images/refit6b/step3.jpg)](images/refit6b/step3.jpg)
 
 ## Step 4: Clip the Front Panel Back On
 
@@ -24,12 +24,12 @@ With the panel in place, the standby wire can be run to the motherboard and cut 
 
 1. Route the wire around the controller port as shown below
 
-[![The 5V standby wire routed around the controller port](images/refit/step5a.jpg)](images/refit/step5a.jpg)
+[![The 5V standby wire routed around the controller port](images/refit6b/step5a.jpg)](images/refit6b/step5a.jpg)
 
 2. Cut it to length once you are happy with the route, leaving a little slack rather than pulling it tight
 3. Strip the end and solder it to the 5V standby point on the motherboard
 
-[![The 5V standby wire soldered to the motherboard](images/refit/step5b.jpg)](images/refit/step5b.jpg)
+[![The 5V standby wire soldered to the motherboard](images/refit6b/step5b.jpg)](images/refit6b/step5b.jpg)
 
 ---
 

@@ -6,7 +6,7 @@ Continuing from Step 1 in [Part 6](hardware-6-refitting-the-front-panel.md), the
 
 Feed the left controller port cable through the rectangular hole in the shielding at the front left.
 
-[![The left controller port cable routed through the rectangular shielding hole](images/refit/step3.jpg)](images/refit/step3.jpg)
+[![The left controller port cable routed through the rectangular shielding hole](images/refit6a/step2.jpg)](images/refit6a/step2.jpg)
 
 ## Step 3: Clip the Front Panel Back On
 
