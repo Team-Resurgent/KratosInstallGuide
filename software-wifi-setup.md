@@ -145,7 +145,7 @@ You can also change WiFi settings after initial setup through the web interface,
 
 ## Next Steps
 
-Now that WiFi is configured, you can personalize your Kratos RGB LEDs and settings from the web interface.
+Now that WiFi is configured, you can personalize your Kratos RGB LEDs and settings from the web interface, or from the Kratos Settings Utility on the Xbox itself.
 
 ---
 
