@@ -22,12 +22,12 @@ Left and right are as you face the front of the console, the same convention use
 
 ### Power
 
-The board has two 5V rails, which is what the **5V (PRIMARY)** and **5V (SECONDARY)** pins in the diagram refer to:
+The 5V pins in the diagram are not all fed from the same place:
 
-- **5V primary** powers the ESP32-S3, **RGB1**, **RGB2** and **ADDON2**.
-- **5V secondary** powers **ADDON1**.
+- The ESP32-S3 runs from a combination of **5V**, **5V STDBY** and USB-C.
+- The 5V pin on **ADDON1** and **ADDON2** is a combination of **5V** and **5V STDBY**.
 
-The **5V STDBY** pad on the back of the board is an alternative feed for the primary rail. That is what makes it useful for keeping Kratos powered while the console is off - required on a 1.6 console ([Part 6b](hardware-6b-refitting-the-front-panel-1-6.md)) and optional on 1.0 to 1.5 ([Part 6a](hardware-6a-refitting-the-front-panel-1-0-1-5.md)).
+**5V STDBY** is the pad on the back of the board. Feeding it from an always-on source is what keeps Kratos powered while the console is off - required on a 1.6 console ([Part 6b](hardware-6b-refitting-the-front-panel-1-6.md)) and optional on 1.0 to 1.5 ([Part 6a](hardware-6a-refitting-the-front-panel-1-0-1-5.md)).
 
 ### Other Points of Interest
 

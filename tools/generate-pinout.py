@@ -46,6 +46,7 @@ ELBOW_GAP = 60
 
 NOTE_PAD = 20
 NOTE_LINE_H = 40
+CANVAS_BOTTOM_MARGIN = 54
 
 HELPER_H = 480
 HELPER_MARGIN = 50
@@ -68,11 +69,11 @@ MAIN_BOARD = {
         "FRONT PANEL": (1940, 168, 2012, 494),
     },
     "pinouts": {
-        "ADDON2": ("TOP TO BOTTOM", ["IO (SPARE)", "RING RGB", "GND", "5V (PRIMARY)"]),
-        "ADDON1": ("TOP TO BOTTOM", ["IR / SDA", "BUZZER / SCL", "GND", "5V (SECONDARY)"]),
-        "RGB1": ("LEFT TO RIGHT", ["5V (PRIMARY)", "RGB LEFT", "GND"]),
-        "RGB2": ("LEFT TO RIGHT", ["5V (PRIMARY)", "RGB RIGHT", "GND"]),
-        "INPUT": ("TOP TO BOTTOM", ["SCL", "SDA", "5V (PRIMARY)"]),
+        "ADDON2": ("TOP TO BOTTOM", ["IO (SPARE)", "RING RGB", "GND", "5V"]),
+        "ADDON1": ("TOP TO BOTTOM", ["IR / SDA", "BUZZER / SCL", "GND", "5V"]),
+        "RGB1": ("LEFT TO RIGHT", ["5V", "RGB LEFT", "GND"]),
+        "RGB2": ("LEFT TO RIGHT", ["5V", "RGB RIGHT", "GND"]),
+        "INPUT": ("TOP TO BOTTOM", ["SCL", "SDA", "5V"]),
         "FRONT PANEL": (
             "TOP TO BOTTOM",
             [
@@ -103,9 +104,9 @@ MAIN_BOARD = {
         (
             "POWER",
             [
-                "5V PRIMARY POWERS THE ESP32-S3, RGB1, RGB2 AND ADDON2.",
-                "5V SECONDARY POWERS ADDON1.",
-                "THE 5V STDBY PAD ON THE BACK OF THE BOARD IS AN ALTERNATIVE 5V PRIMARY FEED.",
+                "THE ESP32-S3 RUNS FROM A COMBINATION OF 5V, 5V STDBY AND USB-C.",
+                "THE 5V PIN ON ADDON1 AND ADDON2 IS A COMBINATION OF 5V AND 5V STDBY.",
+                "5V STDBY IS THE PAD ON THE BACK OF THE BOARD, USED TO KEEP KRATOS POWERED WITH THE CONSOLE OFF.",
             ],
             (1180, 1260),
         )
@@ -368,12 +369,18 @@ def wrap_text(text, font, max_width):
     return lines
 
 
-def draw_note(draw, note, fonts):
-    title, paragraphs, (left, top) = note
-    right = left + BOX_W
+def note_layout(note, fonts):
+    """Wrapped body text and the box it needs, so the canvas can be sized to fit."""
+    _, paragraphs, (left, top) = note
     wrapped = [wrap_text(p, fonts["note"], BOX_W - NOTE_PAD * 2 - 12) for p in paragraphs]
     body_h = sum(len(p) * NOTE_LINE_H for p in wrapped) + (len(wrapped) - 1) * 14
     bottom = top + HEADER_H + NOTE_PAD * 2 + body_h
+    return (left, top, left + BOX_W, bottom), wrapped
+
+
+def draw_note(draw, note, fonts):
+    title, _, _ = note
+    (left, top, right, bottom), wrapped = note_layout(note, fonts)
 
     draw.rectangle((left, top, right, bottom), fill=WHITE, outline=BLACK, width=BORDER)
     draw.rectangle((left, top, right, top + HEADER_H), fill=BLACK)
@@ -420,7 +427,13 @@ def build_fonts():
 
 def render(board, fonts):
     art = Image.open(board["source"]).convert("RGBA")
-    canvas = Image.new("RGB", board["canvas"], WHITE)
+    # The declared canvas is a minimum: note boxes grow with their text, so the
+    # sheet grows with them rather than clipping.
+    width, height = board["canvas"]
+    for note in board.get("notes", ()):
+        (_, _, _, note_bottom), _ = note_layout(note, fonts)
+        height = max(height, note_bottom + CANVAS_BOTTOM_MARGIN)
+    canvas = Image.new("RGB", (width, height), WHITE)
     canvas.paste(art, board["origin"], art)
     draw = ImageDraw.Draw(canvas)
 
