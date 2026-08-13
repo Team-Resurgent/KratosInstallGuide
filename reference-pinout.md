@@ -38,7 +38,7 @@ The **5V STDBY** pad on the back of the board is an alternative feed for the pri
 [![Pinout diagram of the Kratos left Controller Board](images/pinout/controller-left-pinout.png)](images/pinout/controller-left-pinout.png)
 
 - **RGB1** - Takes the Controller Board Connection Cable from **RGB1** on the main board, plugged in during [Part 5](hardware-5-preparing-the-kratos-main-board.md).
-- **OUT** - The pass-through header, carrying 5V, RGB and GND on from this board.
+- **OUT** - The pass-through header, carrying 5V, RGB and GND on from this board. How much you can hang off it depends on how many LEDs you are driving - a larger external string may need its own 5V source rather than taking power from here.
 - **5V ALT** - A pad for feeding in 5V from the controller ports. Only the right board uses it - the left board has no 5V source of its own and runs on the 5V arriving from the right board.
 - **Solder links** - There is one beside each header. Bridge the one beside **RGB1** and leave the one beside **OUT** alone.
 
@@ -47,7 +47,7 @@ The **5V STDBY** pad on the back of the board is an alternative feed for the pri
 [![Pinout diagram of the Kratos right Controller Board](images/pinout/controller-right-pinout.png)](images/pinout/controller-right-pinout.png)
 
 - **RGB2** - Takes the Controller Board Connection Cable from **RGB2** on the main board, plugged in during [Part 5](hardware-5-preparing-the-kratos-main-board.md).
-- **OUT** - The pass-through header, carrying 5V, RGB and GND on from this board.
+- **OUT** - The pass-through header, carrying 5V, RGB and GND on from this board. How much you can hang off it depends on how many LEDs you are driving - a larger external string may need its own 5V source rather than taking power from here.
 - **5V ALT** - Where the 5V wire from the port 4 controller port board is soldered, as covered in [Part 4](hardware-4-preparing-the-controller-ports.md).
 - **Solder links** - There is one beside each header. Bridge the one beside **RGB2** and leave the one beside **OUT** alone.
 
