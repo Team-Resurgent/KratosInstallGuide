@@ -1,96 +1,108 @@
 # WiFi Setup
 
-This guide will help you configure the WiFi connection for your Kratos front button panel.
+Putting Kratos on your network is what enables the web interface, over-the-air updates and the voice assistant integrations. Everything else works without it, so this is optional, but it is worth doing.
 
-## Overview
+There are three ways to connect, all on one page in the **Kratos Settings Utility** - the on-screen app you launch from your dashboard:
 
-Kratos supports three methods for WiFi configuration:
-- **Normal WiFi Setup** - Connect using your network SSID and password
-- **WPS (Wi-Fi Protected Setup)** - Quick connection using the WPS button on your router
-- **AP (Access Point)** - Quick connection using the AP mode
+- **Your network details** - type in the SSID and password
+- **WPS pairing** - press the WPS button on your router instead of typing a password
+- **Setup hotspot** - Kratos hosts its own network and you enter the details from a phone
 
-All methods can be configured through Kratos's settings utility.
+If Kratos is not installed yet, the same job can be done over USB-C with the boot button - see [Part 1: Before You Start](hardware-1-before-you-start.md).
 
-## Navigation to WiFi Configuration
+## Opening the WiFi Page
 
-Follow these steps to access the WiFi configuration menu in the Kratos's settings utility:
+### Step 1: Open the Kratos Settings Utility
 
-### Step 1: Navigate to System
+Launch the Kratos Settings Utility from your dashboard. Everything Kratos can be configured with is listed down the left, with its current state on the right - including the **Network** panel, which shows the IP address and hostname once it is on your network.
 
-From the PrometheOS home page, select **System** to access system configuration options.
+**A** opens the highlighted row, **Y** refreshes, **X** resets and **B** exits.
 
-[![Step 1: Navigate to System](images/wifisetup/step1.png)](images/wifisetup/step1.png)
-
----
-
-### Step 2: Navigate to Settings
-
-From the System page, select **Settings** to access device settings.
-
-[![Step 2: Navigate to Settings](images/wifisetup/step2.png)](images/wifisetup/step2.png)
+[![Step 1: The Kratos Settings Utility home page](images/wifisetup/step1.png)](images/wifisetup/step1.png)
 
 ---
 
-### Step 3: Navigate to Kratos Editor
+### Step 2: Select WiFi
 
-From the Settings page, select **Kratos Editor** to access Kratos-specific configuration options.
+Move down to the **WiFi** row, which shows the current connection state, and press **A** to open it.
 
-[![Step 3: Navigate to Kratos Editor](images/wifisetup/step3.png)](images/wifisetup/step3.png)
-
----
-
-### Step 4: Navigate to WiFi Details
-
-From the Kratos Editor page, select **WiFi Details** to access WiFi configuration options.
-
-[![Step 4: Navigate to WiFi Details](images/wifisetup/step4.png)](images/wifisetup/step4.png)
+[![Step 2: Selecting WiFi](images/wifisetup/step2.png)](images/wifisetup/step2.png)
 
 ---
 
-## Method 1: Standard WiFi Configuration
+### Step 3: The WiFi Page
 
-Once you've reached the WiFi Details page, you can configure your WiFi connection using your network credentials:
+Everything to do with the connection lives on this one page:
 
-1. Enter your **SSID** (WiFi network name) in the SSID field
-2. Enter your **Password** (WiFi network password) in the Password field
-3. Press **X** to apply the settings and connect
+- **Network** - the **Network name (SSID)**, **Password** and **Hostname** fields
+- **Set up without typing** - **Start WPS pairing** and **Start setup hotspot**
+- **Connection** - the panel on the right, showing the current state, IP address, network name, whether a password is set, and the hostname
 
-Kratos will attempt to connect to the specified network. You'll see connection status information displayed on the screen.
+Move between rows with the D-pad, adjust the highlighted one with the D-pad or **LT** and **RT**, save with **X**, reload with **Y**, and go back with **B**.
 
-[![Method 1: Standard WiFi Configuration](images/wifisetup/step5.png)](images/wifisetup/step5.png)
-
----
-
-## Method 2: WPS (Wi-Fi Protected Setup) Configuration
-
-WPS provides a quick and easy way to connect without entering a password. This method is ideal if your router supports WPS and you want to avoid typing the password.
-
-### Prerequisites
-
-Before using WPS, ensure:
-- Your router supports WPS (Wi-Fi Protected Setup)
-- WPS is enabled on your router (check your router's admin settings if needed)
-
-### Step 1: Navigate to WPS
-
-From the Kratos Editor page, select **WPS** to access the WPS connection option.
-
-[![Step 1: Navigate to WPS](images/wifisetup/step6.png)](images/wifisetup/step6.png)
+[![Step 3: The WiFi page](images/wifisetup/step3.png)](images/wifisetup/step3.png)
 
 ---
 
-### Step 2: Connect using WPS
+## Method 1: Enter Your Network Details
 
-To complete the WPS connection:
+If you know your network name and password, type them straight in:
 
-1. **Press the WPS button on your router** - This is usually a physical button on your router (may be labeled "WPS" or have a WPS icon)
-2. **Press A on your Xbox controller** - This initiates the WPS connection process on Kratos
+1. Highlight **Network name (SSID)** and enter your network name
+2. Do the same for **Password**
+3. Optionally change **Hostname** - it defaults to `kratos-xbox`, which is the name the `.local` address uses
+4. Press **X** to save
 
-Kratos will automatically connect to your network. The connection typically completes within 2 minutes. You'll see connection status information on the screen.
+Kratos connects using the details you entered. The **Connection** panel on the right shows how it went, and displays the IP address once it is on the network.
 
-[![Step 2: Connect using WPS](images/wifisetup/step7.png)](images/wifisetup/step7.png)
+---
 
-**Important:** The WPS connection must be completed within your router's WPS window (typically 2 minutes). Make sure to press the router's WPS button and then immediately press A on your controller.
+## Method 2: WPS Pairing
+
+WPS connects without a password, which saves entering one a character at a time. Your router needs to support WPS and have it enabled - check its admin settings if you are not sure.
+
+### Step 1: Start WPS Pairing
+
+Highlight **Start WPS pairing** and press **A**.
+
+[![Step 1: Selecting Start WPS pairing](images/wifisetup/step4.png)](images/wifisetup/step4.png)
+
+---
+
+### Step 2: Press the Button on Your Router
+
+The **Connection** panel switches to **WPS pairing** and counts down while Kratos listens, so press the WPS button on your router as soon as pairing starts. It is usually a physical button, either labelled WPS or marked with the WPS icon.
+
+[![Step 2: WPS pairing running](images/wifisetup/step5.png)](images/wifisetup/step5.png)
+
+Kratos joins the network on its own once the router answers, and the **Connection** panel shows the result.
+
+**Important:** The connection still has to complete inside your router's WPS window, typically 2 minutes. If the countdown runs out before the router answers, start pairing again.
+
+---
+
+## Method 3: Setup Hotspot
+
+If typing on a controller does not appeal and your router has no WPS, Kratos can host its own network and take the details from your phone instead.
+
+### Step 1: Start the Hotspot
+
+Highlight **Start setup hotspot** and press **A**.
+
+[![Step 1: Selecting Start setup hotspot](images/wifisetup/step6.png)](images/wifisetup/step6.png)
+
+---
+
+### Step 2: Join It from a Phone
+
+The **Connection** panel shows the network to join and the address to open, and counts down while the hotspot is up.
+
+1. On your phone, connect to the **Kratos-Setup** network
+2. Browse to [http://192.168.4.1](http://192.168.4.1)
+3. Enter your WiFi details and save
+4. Switch your phone back to your home WiFi
+
+[![Step 2: The setup hotspot running](images/wifisetup/step7.png)](images/wifisetup/step7.png)
 
 ---
 
@@ -98,11 +110,11 @@ Kratos will automatically connect to your network. The connection typically comp
 
 After successful WiFi setup, you can access the Kratos web interface from any device on your network:
 
-1. **Find the IP address** - The IP address assigned to your Kratos is displayed at the top of the Kratos Editor page
+1. **Find the IP address** - It is in the **Network** panel on the Settings home page, and in the **Connection** panel on the WiFi page
 2. **Open a web browser** - On any device connected to the same WiFi network (computer, phone, tablet, etc.)
 3. **Navigate to Kratos** - Enter the IP address in your browser's address bar, or use the hostname with `.local` (e.g., `http://kratos-xbox.local`)
 
-The Kratos web interface provides advanced configuration options and additional features not available through PrometheOS.
+The Kratos web interface provides advanced configuration options and additional features not available in the on-screen utility.
 
 ## Changing WiFi Settings via Web Interface
 
@@ -127,8 +139,8 @@ You can also change WiFi settings after initial setup through the web interface,
 ### WPS Setup Issues
 
 - **WPS not working:** Some routers require WPS to be explicitly enabled in the router's admin settings. Check your router's configuration page.
-- **Connection timeout:** Make sure you press the router's WPS button and then immediately press A on your controller within the 2-minute WPS window
-- **WPS not available:** If your router doesn't support WPS, use Method 1 (Standard WiFi Configuration) instead
+- **Connection timeout:** Make sure you press the router's WPS button as soon as pairing starts on Kratos, and that the connection completes inside the 2-minute WPS window
+- **WPS not available:** If your router doesn't support WPS, use Method 1 (Enter Your Network Details) or Method 3 (Setup Hotspot) instead
 - **Router WPS disabled:** Access your router's admin panel and ensure WPS is enabled in the wireless settings
 
 ## Next Steps
@@ -138,4 +150,3 @@ Now that WiFi is configured, you can personalize your Kratos RGB LEDs and settin
 ---
 
 [← Back to Main Guide](README.md) | [← Hardware Installation](hardware-installation.md)
-
