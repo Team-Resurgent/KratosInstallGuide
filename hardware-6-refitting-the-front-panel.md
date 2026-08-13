@@ -4,7 +4,7 @@ With the Kratos Main Board clipped into the front panel, the panel can go back o
 
 ## Step 1: Route the Right-Hand Cables
 
-Feed the right-hand RGB cable and the 9-pin cable that plugs into the Kratos **INPUT** header through the oblong hole in the chassis.
+Feed three cables through the oblong hole in the chassis: the right-hand RGB cable, the 9-pin cable from the **FRONT PANEL** header, and the harness from the **INPUT** header.
 
 [![The right-hand RGB and 9-pin cables routed through the oblong hole](images/refit/step1.jpg)](images/refit/step1.jpg)
 

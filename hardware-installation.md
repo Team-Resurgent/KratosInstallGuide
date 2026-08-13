@@ -35,6 +35,10 @@ The hardware installation is split into the following parts. Work through them i
 
 Start with [Part 1: Before You Start](hardware-1-before-you-start.md).
 
+## Reference
+
+- **[Pinout Reference](reference-pinout.md)** - The connectors and buttons on the Kratos Main Board
+
 ## Next Steps
 
 Once hardware installation is complete, proceed to [WiFi Setup](software-wifi-setup.md) to configure your Kratos connection.

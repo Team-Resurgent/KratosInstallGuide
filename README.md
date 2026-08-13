@@ -35,6 +35,7 @@ This guide is organized into the following sections:
 
 1. **[Hardware Installation](hardware-installation.md)** - Step-by-step guide for physically installing the Kratos board and components
 2. **[WiFi Setup](software-wifi-setup.md)** - Configure your Kratos WiFi connection
+3. **[Pinout Reference](reference-pinout.md)** - Identify the connectors and buttons on the Kratos Main Board
 
 ## Getting Started
 
