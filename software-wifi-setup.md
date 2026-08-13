@@ -4,15 +4,16 @@ This guide will help you configure the WiFi connection for your Kratos front but
 
 ## Overview
 
-Kratos supports two methods for WiFi configuration:
+Kratos supports three methods for WiFi configuration:
 - **Normal WiFi Setup** - Connect using your network SSID and password
 - **WPS (Wi-Fi Protected Setup)** - Quick connection using the WPS button on your router
+- **AP (Access Point)** - Quick connection using the AP mode
 
-Both methods can be configured through PrometheOS's interface.
+All methods can be configured through Kratos's settings utility.
 
 ## Navigation to WiFi Configuration
 
-Follow these steps to access the WiFi configuration menu in PrometheOS:
+Follow these steps to access the WiFi configuration menu in the Kratos's settings utility:
 
 ### Step 1: Navigate to System
 
