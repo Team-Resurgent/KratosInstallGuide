@@ -73,7 +73,7 @@ MAIN_BOARD = {
         "ADDON1": ("TOP TO BOTTOM", ["IR / SDA", "BUZZER / SCL", "GND", "5V"]),
         "RGB1": ("LEFT TO RIGHT", ["5V", "RGB LEFT", "GND"]),
         "RGB2": ("LEFT TO RIGHT", ["5V", "RGB RIGHT", "GND"]),
-        "INPUT": ("TOP TO BOTTOM", ["SCL", "SDA", "5V"]),
+        "INPUT": ("TOP TO BOTTOM", ["SCL", "SDA", "5V (NOT USED)"]),
         "FRONT PANEL": (
             "TOP TO BOTTOM",
             [
@@ -105,8 +105,9 @@ MAIN_BOARD = {
             "POWER",
             [
                 "THE ESP32-S3 RUNS FROM A COMBINATION OF 5V, 5V STDBY AND USB-C.",
-                "THE 5V PIN ON ADDON1 AND ADDON2 IS A COMBINATION OF 5V AND 5V STDBY.",
+                "THE 5V PIN ON ADDON1 IS A COMBINATION OF 5V AND 5V STDBY.",
                 "5V STDBY IS THE PAD ON THE BACK OF THE BOARD, USED TO KEEP KRATOS POWERED WITH THE CONSOLE OFF.",
+                "THE 5V PIN ON INPUT IS LEFT UNCONNECTED IN THIS INSTALL. THE CONTROLLER PORTS SUPPLY THE 5V.",
             ],
             (1180, 1260),
         )
@@ -246,6 +247,11 @@ def draw_text_centred(draw, centre, text, font, fill):
     )
 
 
+def is_unused(pin):
+    """Pins with nothing on them are greyed so the live ones stand out."""
+    return pin == "NOT CONNECTED" or pin.endswith("(NOT USED)")
+
+
 def box_height(pin_count):
     return HEADER_H + SUBTITLE_H + pin_count * ROW_H
 
@@ -346,7 +352,7 @@ def draw_callout(draw, board, name, fonts):
             (divider_x + 22, y + ROW_H // 2),
             pin,
             font=fonts["pin"],
-            fill=GREY if pin == "NOT CONNECTED" else BLACK,
+            fill=GREY if is_unused(pin) else BLACK,
             anchor="lm",
         )
 

@@ -1,6 +1,6 @@
 # Part 7: Connecting Kratos to the SMBus
 
-Kratos talks to the console over the SMBus. The wire coming from the Kratos **INPUT** harness carries the two SMBus lines: connect its SDA wire to the console's SMBus SDA, and its SCL wire to the console's SMBus SCL.
+Kratos talks to the console over the SMBus. The wire coming from the Kratos **INPUT** harness carries the two SMBus lines: connect its SDA wire to the console's SMBus SDA, and its SCL wire to the console's SMBus SCL. Those are the only two wires it should have on it - its 5V wire was removed back in [Part 5](hardware-5-preparing-the-kratos-main-board.md), as Kratos is powered from the controller ports instead.
 
 There are two places to pick the SMBus up. Either works, so use whichever is easier to reach in your console.
 

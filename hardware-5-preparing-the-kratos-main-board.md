@@ -2,7 +2,7 @@
 
 The Kratos Main Board uses the same 9-pin connector as the original front panel board, so the connector has to be transferred across before the board can go in. It is soldered in place and its wires sit in slot contacts, so this step needs patience rather than force.
 
-**You will need:** a soldering iron, solder, desoldering braid or a solder sucker, flux, and isopropyl alcohol with a soft brush for cleaning up afterwards.
+**You will need:** a soldering iron, solder, desoldering braid or a solder sucker, flux, isopropyl alcohol with a soft brush for cleaning up afterwards, and a fine pick or side cutters for the harness in Step 5.
 
 **Use plenty of flux.** Fresh flux makes the old solder flow at a lower temperature and for longer, so you spend less time heating the pads and are far less likely to lift one. It is worth using on both the desoldering and the soldering.
 
@@ -46,11 +46,19 @@ With the connector fitted and cleaned up, the Kratos Main Board should look like
 
 [![Another view of the assembled Kratos Main Board](images/mainboard/step4b.jpg)](images/mainboard/step4b.jpg)
 
-## Step 5: Connect the Controller Cables and Clip the Board In
+## Step 5: Prepare the SMBus Harness
+
+The SMBus harness is the single-ended 3-wire JST lead - a connector on one end, bare wires on the other. It plugs into the header marked **INPUT**, and its two SMBus wires are soldered to the console's SMBus later in [Part 7](hardware-7-connecting-kratos-to-the-smbus.md).
+
+**Remove the 5V wire from the harness before you plug it in.** In this install Kratos is powered from the controller ports, wired up in [Part 4](hardware-4-preparing-the-controller-ports.md), so nothing should be connected to the 5V pin on **INPUT**. Leaving the wire on the harness leaves a bare end loose inside the console next to the SMBus joints, which is not worth the risk.
+
+The **INPUT** header is SCL, SDA, then 5V, so the 5V wire is the one on the end - check it against the [Pinout Reference](reference-pinout.md) before you touch anything. To take it out, lift the small retention tab inside the connector housing with a fine pick and slide the contact out. If you would rather not disturb the housing, cut the wire off flush at the connector and insulate the stub instead.
+
+## Step 6: Connect the Cables and Clip the Board In
 
 The two Controller Board Connection Cables are the 3-wire JST leads. Plug one into the header marked **RGB1** and the other into **RGB2** - the connectors are keyed, so they only go in one way. Route each cable towards the controller port it will feed.
 
-With the cables on, clip the Kratos Main Board into the front panel using the same clips that held the original board.
+Plug the SMBus harness into **INPUT**, then clip the Kratos Main Board into the front panel using the same clips that held the original board.
 
 [![The Kratos Main Board clipped into the front panel with the RGB cables connected](images/mainboard/step5.jpg)](images/mainboard/step5.jpg)
 
