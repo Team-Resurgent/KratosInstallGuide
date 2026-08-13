@@ -8,18 +8,18 @@ KRATOS is the ultimate OGX front button panel replacement, crafted in collaborat
 
 ### Features
 
-- Seamless Alexa integration
-- Audio playback support
+- Seamless Alexa, Google, Apple assistant integration
+- Buzzer support
+- IR support
+- Future expansion support
 - Fully customizable RGB LEDs for front panel status and controller ports
-- Dynamic RGB effects to match your mood or setup
+- RGB Ring support
+- Unique Kratos RGB synthesizer engine, giving unlimited choice of effects
+- Web API support
 - Personalized front panel LED colors
-- Modxo integration for ultimate mod control
-- PrometheOS compatible
 - Over-the-air updates for hassle-free upgrades
 - Configurable over a web interface or on the xbox
-- WPS enabled
-- Comes preloaded with 2 web games (Frogger + Asteroids)
-- Additional features planned for the future
+- WPS/AP enabled
 
 ### What's Included
 
@@ -27,7 +27,6 @@ Each Kratos kit includes:
 - 1x Kratos Main Board
 - 2x Kratos Controller Boards
 - 1x Front Panel Harness
-- 1x Modxo Harness
 - 2x Controller Board Connection Cables
 
 ## Installation Guide Sections
