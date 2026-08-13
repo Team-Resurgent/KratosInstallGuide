@@ -18,10 +18,18 @@ A reference for the connectors and buttons on the Kratos Main Board. The install
 - **POWER** - The console power button.
 - **EJECT** - The DVD drive eject button.
 
+### Power
+
+The board has two 5V rails, which is what the **5V (PRIMARY)** and **5V (SECONDARY)** pins in the diagram refer to:
+
+- **5V primary** powers the ESP32-S3 and **ADDON1**.
+- **5V secondary** powers **RGB1**, **RGB2** and **ADDON2**.
+
+The **5V STDBY** pad on the back of the board is an alternative feed for the primary rail. That is what makes it useful for keeping Kratos powered while the console is off - required on a 1.6 console ([Part 6b](hardware-6b-refitting-the-front-panel-1-6.md)) and optional on 1.0 to 1.5 ([Part 6a](hardware-6a-refitting-the-front-panel-1-0-1-5.md)).
+
 ### Other Points of Interest
 
 - **ESP32-S3** - The module that runs Kratos, including its WiFi.
-- **5V STDBY** - An always-on 5V pad on the back of the board. Required on a 1.6 console ([Part 6b](hardware-6b-refitting-the-front-panel-1-6.md)) and optional on 1.0 to 1.5 ([Part 6a](hardware-6a-refitting-the-front-panel-1-0-1-5.md)).
 
 ---
 

@@ -47,7 +47,7 @@ ELBOW_GAP = 60
 BOARD_X = 120
 BOARD_Y = 340
 CANVAS_W = 2820
-CANVAS_H = 1610
+CANVAS_H = 1730
 
 HELPER_H = 480
 HELPER_MARGIN = 50
@@ -94,7 +94,7 @@ POWER_NOTE = (
         "THE 5V STDBY PAD ON THE BACK OF THE BOARD IS AN ALTERNATIVE 5V PRIMARY FEED.",
     ],
 )
-NOTE_LEFT = 1237
+NOTE_LEFT = 1180
 NOTE_TOP = 1260
 NOTE_PAD = 20
 NOTE_LINE_H = 40
@@ -103,8 +103,8 @@ LAYOUT = {
     "ADDON2": {"anchor": "top", "box": ("bottom_left", 413, 324), "from": "bottom_mid"},
     "INPUT": {"anchor": "top", "box": ("bottom_left", 1833, 324), "from": "bottom_mid"},
     "FRONT PANEL": {"anchor": "right", "box": ("mid_left", 2240, 671), "from": "left_mid"},
-    "ADDON1": {"anchor": "bottom", "box": ("top_left", 140, 1260), "from": "top_mid"},
-    "RGB1": {"anchor": "bottom", "box": ("top_left", 700, 1260), "from": "top_mid"},
+    "ADDON1": {"anchor": "bottom", "box": ("top_left", 60, 1260), "from": "top_mid"},
+    "RGB1": {"anchor": "bottom", "box": ("top_left", 620, 1260), "from": "top_mid"},
     "RGB2": {"anchor": "bottom", "box": ("top_left", 1734, 1260), "from": "top_mid"},
 }
 
@@ -328,6 +328,7 @@ def main():
         "subtitle": load_font(24, "SemiLight"),
         "pin_num": load_font(32, "Bold"),
         "pin": load_font(34, "Regular"),
+        "note": load_font(30, "Regular"),
     }
 
     draw.text((1383, 108), "KRATOS MAIN BOARD", font=fonts["title"], fill=BLACK, anchor="mm")
@@ -340,6 +341,7 @@ def main():
         draw.ellipse((end[0] - 9, end[1] - 9, end[0] + 9, end[1] + 9), fill=BLACK)
         draw_callout(draw, name, fonts)
 
+    draw_note(draw, fonts)
     paste_helper(canvas)
 
     # Line art with antialiasing needs only a handful of greys, so a palette
