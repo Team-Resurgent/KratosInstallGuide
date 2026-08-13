@@ -38,10 +38,11 @@ With the shielding removed, the controller ports should look like this:
 
 **Note:** Left and right are as you face the front of the console. Working from behind, as you will be here, the right-hand board is the one on your left.
 
-1. Slide the Kratos left Controller Board into place behind the controller ports
-2. Refit the controller port assemblies and secure them with the four screws removed in Step 1
-3. Reconnect the controller port wire harnesses
-4. Optionally, fit cable ties to take the strain off the connectors
+1. Bridge the solder link beside **RGB1** on the board, leaving the link beside **OUT** alone - see the [Pinout Reference](reference-pinout.md) if you are unsure which is which
+2. Slide the Kratos left Controller Board into place behind the controller ports
+3. Refit the controller port assemblies and secure them with the four screws removed in Step 1
+4. Reconnect the controller port wire harnesses
+5. Optionally, fit cable ties to take the strain off the connectors
 
 [![The left Kratos Controller Board fitted behind the controller ports](images/controllerports/step4.jpg)](images/controllerports/step4.jpg)
 
@@ -50,7 +51,7 @@ With the shielding removed, the controller ports should look like this:
 The right-hand board needs a 5V feed wired in before it goes in place.
 
 1. Solder a wire from the red 5V pad on the port 4 controller port board to the pad marked **5V ALT** on the Kratos right Controller Board
-2. Bridge the **5V IN** solder pads on the same board
+2. Bridge the solder link beside **RGB2** on the same board, leaving the link beside **OUT** alone - see the [Pinout Reference](reference-pinout.md) if you are unsure which is which
 3. Slide the board into place behind the controller ports
 4. Refit the controller port assemblies and secure them with their screws
 5. Reconnect the controller port wire harnesses
