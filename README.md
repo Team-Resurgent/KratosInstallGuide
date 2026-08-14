@@ -66,11 +66,23 @@ Thanks to Andr0, Kratos is available from the OGX Store: **[ogxstore.com/kratos-
 
 Three ways in, depending on where you are and what you are doing:
 
-- **The Kratos Settings Utility, on the Xbox** - a controller-driven app that talks to the board over the console's own internal bus, so it works before WiFi is set up. Changes preview on the real LEDs before you save them. This is where [WiFi Setup](software-wifi-setup.md) happens
+- **The Kratos Settings Utility, on the Xbox** - a controller-driven app you copy to your console (see [Downloads](#downloads)), talking to the board over the console's own internal bus, so it works before WiFi is set up. Changes preview on the real LEDs before you save them. This is where [WiFi Setup](software-wifi-setup.md) happens
 - **The web interface, from any browser** - the full set of options from a computer, phone or tablet on your network, plus a web API if you would rather drive Kratos from your own scripts
 - **[The Kratos Service Utility](https://github.com/Team-Resurgent/KratosServiceUtility/), on a computer** - firmware flashing over USB and a serial log viewer, running on Windows, macOS and Linux. You will not need it for a normal installation; it is there for manual updates and for getting out of trouble. Download it from the [releases page](https://github.com/Team-Resurgent/KratosServiceUtility/releases)
 
 The web interface carries its own documentation, so the details travel with the hardware rather than living in a download somewhere. There is a guide to building your own effects with the synthesizer, a full web API reference for automating Kratos from your own scripts or home automation, and the protocol Kratos speaks to the console over its internal bus.
+
+## Downloads
+
+The latest firmware and the Xbox app are on the **[releases page](../../releases)**:
+
+| File | What it's for |
+| --- | --- |
+| `KratosSettings.xbe` | The Kratos Settings Utility. Copy it to your Xbox and run it from your dashboard to set up and adjust Kratos from a controller |
+| `kratos.bin` | Firmware update. Use this for over-the-air updates, or to flash from the Kratos Service Utility |
+| `kratos-merged.bin` | Full image, including the bootloader and recovery partition. Use this with the Kratos Service Utility to recover a Kratos that will no longer boot |
+
+Kratos arrives with firmware already on it, so none of this is needed to get started. Grab `KratosSettings.xbe` if you want the on-console app, and come back for the `.bin` files when there is an update or something has gone wrong.
 
 ## What's Included
 

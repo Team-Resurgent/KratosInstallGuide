@@ -14,7 +14,9 @@ If Kratos is not installed yet, the same job can be done over USB-C with the boo
 
 ### Step 1: Open the Kratos Settings Utility
 
-Launch the Kratos Settings Utility from your dashboard. Everything Kratos can be configured with is listed down the left, with its current state on the right - including the **Network** panel, which shows the IP address and hostname once it is on your network.
+Launch the Kratos Settings Utility from your dashboard. If it is not on your Xbox yet, download `KratosSettings.xbe` from the [releases page](../../releases) and copy it across.
+
+Everything Kratos can be configured with is listed down the left, with its current state on the right - including the **Network** panel, which shows the IP address and hostname once it is on your network.
 
 **A** opens the highlighted row, **Y** refreshes, **X** resets and **B** exits.
 
