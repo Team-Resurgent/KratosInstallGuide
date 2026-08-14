@@ -116,6 +116,8 @@ After successful WiFi setup, you can access the Kratos web interface from any de
 
 The Kratos web interface provides advanced configuration options and additional features not available in the on-screen utility.
 
+It also carries its own documentation, linked from the main menu: a guide to building your own lighting effects, a reference for the web API if you want to drive Kratos from your own scripts, and the protocol it speaks to the console over the internal bus.
+
 ## Changing WiFi Settings via Web Interface
 
 You can also change WiFi settings after initial setup through the web interface, which provides a more convenient way to update network credentials:

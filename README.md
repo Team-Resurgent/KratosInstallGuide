@@ -10,7 +10,7 @@ KRATOS is the ultimate OGX front button panel replacement, crafted in collaborat
 
 ### Lighting
 
-- **The whole front of the console lights up** - fully customizable RGB across the front panel and both controller ports
+- **The whole front of the console lights up** - fully customizable RGB across the front panel and both controller ports, and each controller board passes the lighting on outwards, so you can carry on into more LEDs beyond the console
 - **An optional RGB ring**, running its own effect independently of the panel
 - **An effect engine, not a fixed list of animations** - build a look from a palette of up to ten colours, choose how it moves (a sweep or scanner, random twinkles, or drifting noise like plasma and lava), and shape how each colour fades in, holds and fades out
 - **18 built-in presets** - Aurora, Breathing Rainbow, Candy Cane, Confetti, Cyber, Fire, Halloween, Knight Rider, Lava, Marquee, Ocean, Pacifica, Plasma, Purple Haze, Rainbow, Sunset, Twinkle and Xbox Green
@@ -47,7 +47,7 @@ KRATOS is the ultimate OGX front button panel replacement, crafted in collaborat
 
 - **Two add-on headers** - one takes an IR receiver and a PC speaker buzzer, the other drives the LED ring, with a spare IO line left over
 - **Room to grow** - Kratos already carries a setting for a future add-on board that will play audio on power on, power off, eject and more
-- **Longer LED runs** than the five per side behind the bezel - up to 128 per side, and up to 64 on the ring
+- **Longer LED runs** from the pass-through header on each controller board - up to 128 LEDs per side, and up to 64 on the ring
 - **A separate brightness control** for everything past the bezel, so an external string does not have to match the panel
 
 ### Hidden Extras
@@ -61,6 +61,8 @@ Three ways in, depending on where you are and what you are doing:
 - **The Kratos Settings Utility, on the Xbox** - a controller-driven app that talks to the board over the console's own internal bus, so it works before WiFi is set up. Changes preview on the real LEDs before you save them. This is where [WiFi Setup](software-wifi-setup.md) happens
 - **The web interface, from any browser** - the full set of options from a computer, phone or tablet on your network, plus a web API if you would rather drive Kratos from your own scripts
 - **The Kratos Service Utility, on a PC** - firmware flashing over USB and a serial log viewer. You will not need it for a normal installation; it is there for manual updates and for getting out of trouble
+
+The web interface carries its own documentation, so the details travel with the hardware rather than living in a download somewhere. There is a guide to building your own effects, a full web API reference for automating Kratos from your own scripts or home automation, and the protocol Kratos speaks to the console over its internal bus.
 
 ## What's Included
 
