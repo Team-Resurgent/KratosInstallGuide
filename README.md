@@ -10,7 +10,7 @@ KRATOS is the ultimate OGX front button panel replacement, crafted in collaborat
 
 ![Kratos lighting up a crystal Xbox](images/video/crystal-preview.webp)
 
-*A crystal Xbox with the front panel, both controller ports and a ring all running together. The full clip, with sound, is a [direct download](../../raw/main/video/crystal.mp4).*
+*A crystal Xbox with the front panel, both controller ports and a ring all running together. The full clip is a [direct download](../../raw/main/video/crystal.mp4).*
 
 ## Where to Buy
 
