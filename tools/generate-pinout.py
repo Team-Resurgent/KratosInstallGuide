@@ -108,7 +108,16 @@ MAIN_BOARD = {
                 "IN THIS EXAMPLE INSTALL THE 5V PIN ON INPUT IS NOT CONNECTED. IT IS THERE FOR FEEDING 5V STRAIGHT INTO THE MAIN BOARD FROM AN ALWAYS-ON SOURCE.",
             ],
             (1180, 1260),
-        )
+        ),
+        (
+            "ADD-ONS",
+            [
+                "ADDON1 TAKES AN IR RECEIVER ACROSS 5V, GND AND IR, PLUS A PC SPEAKER BUZZER BETWEEN BUZZER AND GND.",
+                "ADDON2 RUNS AN LED RING FROM RING RGB, GND AND 5V.",
+                "SET WHAT IS FITTED FROM THE KRATOS SETTINGS UTILITY OR THE WEB INTERFACE.",
+            ],
+            (60, 1620),
+        ),
     ],
 }
 

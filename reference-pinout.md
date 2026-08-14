@@ -15,7 +15,10 @@ Left and right are as you face the front of the console, the same convention use
 - **FRONT PANEL** - The 9-pin header for the console's front panel cable. The connector is salvaged from the original front panel board and soldered on in [Part 5](hardware-5-preparing-the-kratos-main-board.md).
 - **INPUT** - The 3-pin header carrying the SMBus lines and 5V. The two SMBus lines are wired to the console's SMBus in [Part 7](hardware-7-connecting-kratos-to-the-smbus.md). The 5V pin is not connected in this install example, so the harness has its 5V wire removed in [Part 5](hardware-5-preparing-the-kratos-main-board.md).
 - **RGB1** and **RGB2** - The two 3-pin JST headers for the Controller Board Connection Cables, one per Kratos Controller Board. The connectors are keyed, so they only go in one way. Fitting these is covered in [Part 5](hardware-5-preparing-the-kratos-main-board.md).
-- **ADDON1** and **ADDON2** - Expansion headers. Nothing in the standard kit plugs into these.
+- **ADDON1** - The header for the IR receiver and the buzzer. An IR receiver wires across **5V**, **GND** and the **IR** pin, and a PC speaker buzzer wires between the **BUZZER** pin and **GND**.
+- **ADDON2** - The header an LED ring runs from, across **RING RGB**, **GND** and **5V**. Pin 1 is a spare IO line for future use.
+
+Nothing in the standard kit plugs into either header. Kratos has a **Fitted add-on** setting for what you have connected - **None**, **Buzzer + IR**, or **External Addon** for a future board that will add audio playback on power on, power off, eject and more. You can set it from the Kratos Settings Utility on the console or from the web interface.
 
 ### Buttons
 
