@@ -88,7 +88,6 @@ This guide is organized into the following sections:
 
 Before you begin, make sure you have:
 - Your Kratos kit with all components
-- A compatible original Xbox
 - Basic tools for opening your Xbox
 - Optional WiFi network available
 
