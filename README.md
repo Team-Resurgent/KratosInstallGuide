@@ -6,6 +6,12 @@ Welcome to the Kratos installation guide! This guide will walk you through insta
 
 KRATOS is the ultimate OGX front button panel replacement, crafted in collaboration between Team Resurgent and EqUiNoX Mods. It packs a modern feature set into a clean, drop-in upgrade for your original Xbox setup.
 
+## Kratos in Action
+
+[![Kratos lighting up a crystal Xbox - click to play](images/video/crystal-poster.jpg)](video/crystal.mp4)
+
+*Click the image to play (14 seconds). A crystal Xbox with the front panel, both controller ports and a ring all running together.*
+
 ## Where to Buy
 
 Thanks to Andr0, Kratos is available from the OGX Store: **[ogxstore.com/kratos-front-panel](https://ogxstore.com/kratos-front-panel/)**
