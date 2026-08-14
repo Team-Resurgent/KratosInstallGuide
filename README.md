@@ -73,7 +73,6 @@ The web interface carries its own documentation, so the details travel with the 
 Each Kratos kit includes:
 - 1x Kratos Main Board
 - 2x Kratos Controller Boards
-- 1x Front Panel Harness
 - 1x SMBus Harness - the single-ended 3-wire JST lead for the **INPUT** header
 - 2x Controller Board Connection Cables
 
