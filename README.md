@@ -77,7 +77,6 @@ The web interface carries its own documentation, so the details travel with the 
 Each Kratos kit includes:
 - 1x Kratos Main Board
 - 2x Kratos Controller Boards
-- 1x Front Panel Harness
 - 1x SMBus Harness - the single-ended 3-wire JST lead for the **INPUT** header
 - 2x Controller Board Connection Cables
 
@@ -93,7 +92,6 @@ This guide is organized into the following sections:
 
 Before you begin, make sure you have:
 - Your Kratos kit with all components
-- A compatible original Xbox
 - Basic tools for opening your Xbox
 - Optional WiFi network available
 
